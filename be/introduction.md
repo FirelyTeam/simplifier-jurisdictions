@@ -44,4 +44,4 @@ Health companies and organizations are encouraged to addopt FHIR and connect wit
 
 In conclusion, the state of FHIR in Belgium is progressive and promising. With strong regulatory backing, substantial adoption, and proactive development and infrastructure support, Belgium is well-positioned to not only standardize health data exchange but also innovate and improve healthcare outcomes significantly.
 
-*This summary presents the current state of Fast Healthcare Interoperability Resources (FHIR) in Sweden based on the HL7 FHIR DevDays 2024 State of FHIR survey results provided by José Costa Teixeira of Hl7 Belgium.*
+*This summary presents the current state of Fast Healthcare Interoperability Resources (FHIR) in Belgium based on the HL7 FHIR DevDays 2024 State of FHIR survey results provided by José Costa Teixeira of Hl7 Belgium.*
