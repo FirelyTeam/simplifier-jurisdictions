@@ -29,4 +29,4 @@ Croatia's healthcare infrastructure is well-grounded in the CEZIH system, which 
 
 In conclusion, while FHIR's adoption in Croatia is still in its early stages, the regulatory framework and infrastructure reflect a strong foundation for future growth. The collaborative efforts among regulatory bodies, healthcare providers, and technology organizations signal a promising trajectory for FHIR's enhanced role in Croatia's healthcare landscape.
 
-*This summary presents the current state of Fast Healthcare Interoperability Resources (FHIR) in Croatia based on the HL7 FHIR DevDays 2024 State of FHIR survey results provided by Darko Gvozdanović of Ericsson Nikola Tesla and others.*
+*This summary presents the current state of Fast Healthcare Interoperability Resources (FHIR) in Croatia based on the [HL7 FHIR DevDays](https://devdays.com) 2024 State of FHIR survey results provided by Darko Gvozdanović of Ericsson Nikola Tesla and others.*
