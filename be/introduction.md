@@ -12,6 +12,8 @@ Belgium consist of three regions (Flanders, Wallonia and Brussels) with a high d
 
 Leading the charge in the standardization and implementation of FHIR in Belgium are organizations such as [HL7 Belgium](https://www.hl7belgium.org/) and [IHE Belgium](https://ihe-europe.net/affiliates/belgium). These entities serve as central meeting grounds for various stakeholders, fostering collaboration and widespread adoption of FHIR standards across the healthcare ecosystem.
 
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/videoseries?si=yhIclMohSuJSETIM&amp;list=PLAPVWVA2xKFikhIam-UmyCeebABWqyVZV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### Relevant Institutes
 
 Key stakeholders in the adoption of FHIR include care providers, payers/insurers, EHR vendors, and app developers. The **eHealth Platform**, **RIZIV-INAMI**, and regional health vaults like **Vitalink**, **RSW**, and **RSB** have also been identified as crucial players, driving forward the national agenda on FHIR adoption.
@@ -23,8 +25,6 @@ Belgium has an active landscape for the development of FHIR standards, with seve
 Belgium has defined several [Implementation Guides](https://ehealth.fgov.be/standards/fhir/), ranging from Core, Vaccination, Allergy Intolerance, Medication, Clinical, national infrastructure connectivity, Lab, to security.
 
 You can find the [Belgian FHIR packages here](https://simplifier.net/search?packages=&nationality=BE) on Simplifier.
-
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/videoseries?si=yhIclMohSuJSETIM&amp;list=PLAPVWVA2xKFikhIam-UmyCeebABWqyVZV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Terminology Usage
 
