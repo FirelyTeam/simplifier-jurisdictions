@@ -1,0 +1,16 @@
+*The following is based on the answers to the [State of FHIR survey 2023](https://fire.ly/blog/fhir-maturity-and-adoption-around-the-world/) from HL7 US Realm Steering Committee Co-chairs Brett Marquard and Steve Posnack*
+
+The state of FHIR adoption in the United States is steadily progressing, with an expected increase in adoption rates in the coming years. FHIR is already being used to exchange healthcare data to a significant extent, indicating its growing significance in the healthcare industry.
+
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/videoseries?si=dy39BzZ4R_sexcqh&amp;list=PLAPVWVA2xKFjzYExSt5Q4psKmEEiJxP4Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Regulation
+Regulation plays a vital role in promoting the use of standards for electronic health data exchange, and the 21st Century Cures Act and US Core Data for Interoperability are the primary regulations mandating the use of FHIR. Other regulations include the [LEAP Grants](https://www.healthit.gov/topic/onc-funding-opportunities/leading-edge-acceleration-projects-leap-health-information), the [Trusted Exchange Framework and Common Agreement (TEFCA)](https://www.healthit.gov/topic/interoperability/policy/trusted-exchange-framework-and-common-agreement-tefca), and the ONC/HL7 Cooperative Agreement.
+
+## National standards development
+The Office of the National Coordinator for Health IT (ONC) serves as the national standards organization in the United States, responsible for developing and promoting health data exchange standards. The national FHIR data model, widely used across the country, can be found in the [United States Core Data for Interoperability (USCDI)](https://www.healthit.gov/isa/united-states-core-data-interoperability-uscdi#uscdi-v3) and the [US Core specifications](http://hl7.org/fhir/us/core/STU6/). Additionally, many FHIR standards have been developed in the US for more specific use cases, most of which derive from the national FHIR data model.
+
+## FHIR Implementation
+Various stakeholders are adopting FHIR, including care providers, payers/insurers, EHR vendors, and app developers. The main drivers for FHIR adoption include regulatory requirements, grants, improved care, and innovation. Patient advocacy groups in the US advocate for the availability of healthcare data, although FHIR standards are not always specifically mentioned. Numerous successful FHIR use cases have demonstrated improved access to information, with patient and provider access via apps being notable examples.
+
+*There are promising future FHIR implementation use cases to anticipate, such as bulk data exchange, SMART Health Links, easy access to second opinions, and image sharing. The FHIR landscape in the United States is dynamic and evolving, demanding continuous attention and tracking of developments.*

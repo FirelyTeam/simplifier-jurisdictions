@@ -1,0 +1,1 @@
+*The following is based on the answers to the [State of FHIR survey 2023](https://fire.ly/blog/fhir-maturity-and-adoption-around-the-world/) including from Maximilian Reith, Kassenärztliche Bundesvereinigung (KBV), Simone Heckmann, Gefyra GmbH / HL7 Germany e.V., Sylvia, Charité Universitätsmedizin Berlin.*
