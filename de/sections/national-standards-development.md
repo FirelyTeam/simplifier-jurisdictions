@@ -1,3 +1,0 @@
-## National Standards Development
-
-National standards development is decentralized, with various organizations contributing. The KBV and gematik are prominent in this space, with DIN also mentioned as a significant player. Germany has a national FHIR data model, found on [Simplifier.net](https://simplifier.net/basisprofil-de-r4), which serves as the foundation for many specific use case standards. Efforts are being made to coordinate standards development across organizations, though there are challenges with inconsistency and restrictive profiling due to data protection requirements.

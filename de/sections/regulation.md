@@ -1,3 +1,0 @@
-## Regulation
-
-In Germany, FHIR adoption is influenced by existing regulations mandating the use of standards in electronic health data exchange. The Gesundheits-IT-Interoperabilitäts-Governance-Verordnung (Interoperability Governance Regulation) and Sozialgesetzbuch (Social Code) V are key regulations. While FHIR is specifically mandated in some regulations like ISiK, it is not mentioned in others such as SGB V. Compliance deadlines are in place with ISiK requiring implementation by June 30, 2023, and other directives by January 1, 2024, although fines for non-compliance vary.

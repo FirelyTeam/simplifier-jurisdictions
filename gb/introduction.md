@@ -1,19 +1,39 @@
-*The following is based on the answers to the [State of FHIR survey 2023](https://fire.ly/blog/fhir-maturity-and-adoption-around-the-world/) from Rik Smithies, HL7 UK.*
+*This overview is based on the insights gathered from the DevDays 2024 State of FHIR survey, with a comparison to the 2023 survey to highlight the progress and changes.*
 
-The United Kingdom is advancing its healthcare interoperability with the development of FHIR standards.
+### Regulation
 
-## Regulation
+The United Kingdom has established a robust regulatory framework to guide the use of standards in electronic health data exchange. The cornerstone of this framework is the Health and Social Care Act (HSCA) 2012, as amended by the Health and Care Act (HCA) 2022. This marks a significant development from 2023, where no specific regulation was mentioned. While FHIR is not explicitly mentioned in these regulations, there is a clear deadline for compliance, underscoring the government's commitment to standardization. However, there are no significant funding programs currently available to stimulate FHIR adoption. The recent release of UK Core 2.0 marks a significant milestone in the nation's regulatory landscape.
 
-Healthcare policy in the UK tends to be directed by the NHS with some government oversight. While there is no strict mandate for the use of FHIR, there is an indication that FHIR standards are being drafted, known as the UK Core. This reflects a growing recognition within the healthcare system of the importance of interoperability and the potential of FHIR to contribute to this aim.
+### Adoption
+
+The adoption of FHIR in the United Kingdom is steadily gaining momentum. In 2023, FHIR was used for a few use cases, rated at 2, but by 2024, this has increased to a rating of 4, indicating more widespread use. The most widely used versions of FHIR in the UK are STU3 and R4, with a noticeable increase in R4 usage from 2 to 4. While DSTU2 usage has seen a slight increase, R5 and the pre-release R6 remain unused. This indicates a cautious but progressive embrace of newer FHIR versions. The expected change in the rate of adoption remains optimistic, though slightly tempered from a strong increase rating of 5 in 2023 to 4 in 2024.
+
+### Authoritative Bodies
+
+NHS England, formerly known as NHS Digital, is the principal authoritative body overseeing the development and implementation of FHIR standards in the UK. This is a shift from 2023, where HL7 UK was noted as the primary standards organization. NHS England's leadership and guidance are pivotal in steering the national strategy for electronic health data exchange.
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/videoseries?si=lJ5FBLeT3-K2JUPt&amp;list=PLAPVWVA2xKFi0CJ4uJKSxLqTjUGkija9Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## National Standards Development
+### Relevant Institutes
 
-HL7 UK is the key standards organization in the UK, currently working on the development of a national FHIR data model. The draft of this model can be found on [Simplifier](https://simplifier.net/guide/uk-core-implementation-guide/Home?version=1.0.0). Although other FHIR Implementation Guides (IGs) have been implemented, these are not yet recognized as national standards. The ongoing development of UK-specific standards indicates a tailored approach to adopting FHIR, considering the unique requirements of the UK's healthcare system.
+In addition to NHS England, other key stakeholders include DHCW (Wales), NHS Scotland, HSC Northern Ireland, and HL7 UK. These organizations play crucial roles in the regional and national implementation of FHIR, contributing to a cohesive approach across the United Kingdom.
 
-## FHIR Implementation
+### National Standards Development
 
-Several successful FHIR use cases in the UK, such as the Kings Health Partnership in London, SiDER in Somerset, and the Yorkshire & Humber Care Record, showcase the improved access to information facilitated by FHIR. Looking ahead, there are projects in the pipeline that will reimplement national-level patient demographics services in FHIR and develop national-level pathology standards using FHIR in Wales and England. The anticipated release of the UK Core is expected to boost FHIR adoption across the UK.
+The UK has made significant strides in developing national standards for FHIR. The UK Core, accessible [here](https://simplifier.net/guide/ukcoreversionhistory/home?version=current), serves as the national FHIR data model and is currently used in a limited set of use cases. This continuity from 2023 shows ongoing development and implementation. Additionally, there are now numerous specific FHIR standards derived from the national model, highlighting the country's commitment to tailored and comprehensive data exchange solutions.
 
-*Key stakeholders in the UK include the NHS health informatics bodies from England, Wales, Scotland, and Northern Ireland, along with HL7 UK, which can provide further contact information. Their collaborative efforts are central to achieving a comprehensive and effective FHIR adoption strategy in the UK.*
+### Terminology Usage
+
+While the survey did not provide specific details on terminology usage, the adoption of FHIR inherently supports standardized terminologies, which are crucial for interoperability and accurate data exchange.
+
+### Infrastructure
+
+The UK's infrastructure for FHIR implementation is decentralized, making it somewhat challenging to track progress comprehensively. This was also noted in 2023, with the additional insight in 2024 that issues are more about the lack of well-funded integration projects rather than a lack of desire to use FHIR. Software companies looking to plug into this infrastructure must navigate a landscape marked by high investment costs and a need for clearer regulations and national strategy.
+
+### Conclusion
+
+The United Kingdom is on a promising path toward widespread FHIR adoption. With strong regulatory frameworks, active authoritative bodies, and ongoing national standards development, the future of FHIR in the UK looks bright. The progress from 2023 to 2024 is evident in the increased adoption and more detailed regulatory landscape. Continued efforts to address challenges such as high investment costs and lack of FHIR knowledge will be crucial in realizing the full potential of FHIR and improving healthcare outcomes across the nation.
+
+*This summary presents the current state of Fast Healthcare Interoperability Resources (FHIR) in the United Kingdom based on the [HL7 FHIR DevDays](https://devdays.com) 2024 State of FHIR survey results provided by Rik Smithies of HL7 UK and others.*
+
+*Additional background was added based on the answers to the [HL7 FHIR DevDays State of FHIR survey 2023](https://fire.ly/blog/fhir-maturity-and-adoption-around-the-world/) by Rik Smithies of HL7 UK.*
