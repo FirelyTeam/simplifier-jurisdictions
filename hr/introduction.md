@@ -1,3 +1,5 @@
+*This overview is based on the insights gathered from the DevDays 2024 State of FHIR survey.*
+
 ### Regulation
 
 Croatia's health data exchange is guided by the [Law on Data and Information in Healthcare](https://www.zakon.hr/z/1883/Zakon-o-podacima-i-informacijama-u-zdravstvu), which prescribes standards but does not explicitly mention FHIR. Compliance deadlines and fines are not part of this regulation. The Central Healthcare Information System of the Republic of Croatia (CEZIH) is heavily based on HL7 standards, with some functionalities adopting FHIR. CEZIH serves as a comprehensive platform for healthcare information exchange, encompassing electronic health records, patient portals, and national applications.

@@ -1,3 +1,5 @@
+*This overview is based on the insights gathered from the DevDays 2024 State of FHIR survey.*
+
 ### Regulation
 
 Belgium has robust regulations in place that specifically mandate the use of FHIR (Fast Healthcare Interoperability Resources) for electronic health data exchange. The most pivotal regulation, the [EHealth Action Plan](https://www.ehealth.fgov.be/), clearly prescribes the adoption of FHIR standards. While specific compliance deadlines are not well-documented, the absence of fines for non-compliance is counterbalanced by the availability of governmental funds aimed at stimulating FHIR adoption, fostering a supportive regulatory environment.

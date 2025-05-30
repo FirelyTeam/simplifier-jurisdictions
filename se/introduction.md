@@ -1,3 +1,5 @@
+*This overview is based on the insights gathered from the DevDays 2024 State of FHIR survey.*
+
 ### Regulation
 
 As of now, Sweden does not have a specific regulation mandating the use of standards in electronic health data exchange, including FHIR. However, efforts are underway to accelerate the adoption of such standards on a national level.

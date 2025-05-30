@@ -1,3 +1,5 @@
+*This overview is based on the insights gathered from the DevDays 2024 State of FHIR survey, with a comparison to the 2023 survey to highlight the progress and changes.*
+
 ### Regulation
 
 New Zealand has established robust regulations to foster the use of standards in electronic health data exchange. The cornerstone of these regulations is the **HISO 10083:2020 Interoperability Roadmap**, which advises the adoption of FHIR (Fast Healthcare Interoperability Resources). While there is no strict deadline for compliance, the regulation is supported by funding initiatives aimed at stimulating FHIR adoption. One notable program is **Hira, the National Health Information Exchange Platform**, which can be explored in more detail [here](https://www.tewhatuora.govt.nz/health-services-and-programmes/digital-health/hira-connecting-health-information/).

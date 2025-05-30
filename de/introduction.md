@@ -1,3 +1,5 @@
+*This overview is based on the insights gathered from the DevDays 2024 State of FHIR survey, with a comparison to the 2023 survey to highlight the progress and changes.*
+
 ### Regulation
 
 Germany has established a robust regulatory framework to guide the use of standards in electronic health data exchange. Key regulations include the Sozialgesetzbuch V (SGB V), Digital-Gesetz (DigiG), and various initiatives like ISIK, OEGD, genomDE, KHZG, ePrescription, and Medication. Notably, FHIR is explicitly mandated in some regulations, with compliance deadlines such as January 1, 2025. While some regulations impose fines for non-compliance, others are supported by funding programs to stimulate FHIR adoption. The interoperability coordination council, with multiple subgroups, plays a crucial role in this ecosystem.
