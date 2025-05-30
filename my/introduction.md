@@ -18,7 +18,7 @@
 - **Standards Organization**:
   - Malaysia has a national organization responsible for health data standards, linked [here](https://hq.moh.gov.my/perancangan/blog/utama/visi-misi-objektif/site-map-my/perutusan-pengarah/pusat-informatik-kesihatan/).
 - **Implementation Guides**:
-  - A base/core FHIR implementation guide is available for Malaysia, used in a limited set of use cases, accessible [here](https://simplifier.net/guide/mycore?version=current).
+  - A base/core FHIR implementation guide is available for Malaysia, used in a limited set of use cases, accessible [here](https://simplifier.net/guide/mycore).
 - **Terminology Services**:
   - A national FHIR terminology server is in production, enhancing support for standardized healthcare terms and codes.
 

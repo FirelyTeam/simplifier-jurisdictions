@@ -9,7 +9,7 @@
 
 ## National Setup
 - **Standards Organization**: The UK has different organizations responsible for health data standards in England, Scotland, Northern Ireland, and Wales. [NHS England](https://www.england.nhs.uk/), [Digital Health and Care Wales](https://dhcw.nhs.wales/), [Digital Health & Care Scotland](https://www.digihealthcare.scot/), and [Health and Care NI](https://dhcni.hscni.net/).
-- **Implementation Guides**: A base/core FHIR implementation guide for the UK is available, which is being used in a limited set of use cases. You can find it [here](https://simplifier.net/guide/ukcoreversionhistory/home?version=current).
+- **Implementation Guides**: A base/core FHIR implementation guide for the UK is available, which is being used in a limited set of use cases. You can find it [here](https://simplifier.net/guide/ukcoreversionhistory).
 - **Terminology Services**: The UK has a national FHIR terminology server in production, supporting the use and implementation of FHIR standards.
 
 ## Active Use Cases
