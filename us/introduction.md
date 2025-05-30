@@ -1,49 +1,67 @@
-*This overview is based on the insights gathered from the DevDays 2024 State of FHIR survey, with a comparison to the 2023 survey to highlight the progress and changes.*
-
-### Regulation
-
-The United States has made significant strides in regulating the use of FHIR standards within electronic health data exchange. The pivotal *Health Data, Technology, and Interoperability: Certification Program Updates, Algorithm Transparency, and Information Sharing (HTI-1) Final Rule* mandates the use of FHIR, with a compliance deadline now extended to December 31, 2025, reflecting updated regulatory timelines from the previous 2022 deadline. The enforcement of these regulations is bolstered by substantial funding opportunities such as the [LEAP Grants](https://www.healthit.gov/topic/onc-funding-opportunities/leading-edge-acceleration-projects-leap-health-information), [TEFCA](https://www.healthit.gov/topic/interoperability/policy/trusted-exchange-framework-and-common-agreement-tefca), and various cooperative agreements between ONC and HL7. These efforts are closely monitored by the Office of the National Coordinator for Health IT (ONC) and other agencies like CMS and CDC, ensuring a broad and effective implementation across sectors.
-
-### Adoption
-
-FHIR's adoption in the United States is progressing robustly, particularly as the primary standard for electronic health data exchange. The prevalent use of FHIR R4 showcases a strong commitment to keeping up with recent specifications and updates. Importantly, the expected rate of FHIR adoption has increased from a score of 3 in 2023 to a more optimistic 4 in 2024, indicating growing confidence and momentum in the healthcare community. Main adopters continue to include care providers, insurers, EHR vendors, and app developers, all contributing to a dynamic ecosystem poised for further expansion.
-
-### Authoritative Bodies
-
-Key authoritative bodies governing the FHIR landscape in the United States include the *Office of the National Coordinator for Health IT (ONC)* and the *HL7 US Realm Steering Committee*. These entities play crucial roles in certifying health IT and mandating the use of FHIR through comprehensive regulations and incentivizing programs.
+The Fast Healthcare Interoperability Resources (FHIR) standard is increasingly being utilized in **the United States** to facilitate the exchange of healthcare data. Currently, version R4 of FHIR is the most actively used, with a noticeable implementation score of 5. However, earlier versions like DSTU2 and STU3 are still in question, while R5 is beginning to see some use. The adoption of FHIR is expected to grow in the coming years, as indicated by a positive outlook from industry respondents.
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/videoseries?si=dy39BzZ4R_sexcqh&amp;list=PLAPVWVA2xKFjzYExSt5Q4psKmEEiJxP4Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### Relevant Institutes
+## Rules and Support for FHIR
 
-Organizations such as HL7 International and various research institutes are integral in driving FHIR implementation forward. Specific contributors mentioned include *Brett Marquard* from HL7 and *Matt Rahn* from HHS/ONC, illustrating the collaborative efforts between public and private sectors to harness the potential of FHIR.
+The United States has regulations in place that mandate the use of standards in electronic health data exchange, specifically mentioning FHIR:
 
-### National Standards Development
+- **Health Data Exchange Rules**: Yes, there are specific regulations mandating the use of FHIR.
+- **FHIR Requirements**: FHIR is mandated within these regulations.
+- **Compliance Deadline**: Yes, there's a set deadline for compliance.
+- **Fines**: No fines are imposed for non-compliance before the deadline.
+- **Government Funding**: No, there are no government funds available to stimulate FHIR adoption.
 
-The United States boasts a robust national standards development framework anchored by the widely adopted [US Core 7.0.0](https://build.fhir.org/ig/HL7/US-Core/) and the [USCDI](https://www.healthit.gov/isa/sites/isa/files/2023-10/USCDI-Version-4-October-2023-Errata-Final.pdf). These core models serve as the foundation for numerous specific FHIR standards, which are meticulously derived to suit various use cases, ensuring coherence and interoperability across the healthcare system. The development of these standards is ongoing, reflecting the dynamic nature of health IT requirements.
+For more information on these regulations, visit the [ONC Health IT Certification Program](https://www.healthit.gov/topic/certification-ehrs/about-onc-health-it-certification-program).
 
-### Terminology Usage
+## National Setup for FHIR
 
-Terminology within FHIR in the United States is highly standardized, adhering to national data models and implementation guides. This standardization is critical for ensuring interoperability and facilitating seamless data exchange between different healthcare systems and applications.
+In the United States, the development and adoption of FHIR standards are supported by multiple national organizations:
 
-### Infrastructure
+- **Standards Organizations**: Multiple, including [HL7](https://www.hl7.org/), [IHE](https://www.ihe.net/), and [DirectTrust](https://www.directtrust.org/).
+- **Implementation Guides**: The [US Core Implementation Guide](https://hl7.org/fhir/us/core/index.html) is widely used.
+- **Terminology Services**: Currently, there is no national FHIR terminology server available, nor plans for one.
 
-The infrastructure supporting FHIR in the United States is extensive, featuring regional and national frameworks that healthcare providers and technology vendors can integrate with. Participation in these networks often requires adherence to specific technical and regulatory standards, ensuring consistency and reliability in data exchange processes. The National Infrastructure includes significant initiatives like TEFCA, providing a cohesive strategy for broad interoperability.
+## Active Use Cases for FHIR
 
-### FHIR Implementation
+FHIR standards in the US cover a wide range of healthcare data exchange scenarios:
 
-The main parties adopting FHIR in the United States remain consistent, encompassing care providers, insurers, EHR vendors, and app developers. Main drivers for adoption include regulation, grants, improved care, and innovation. Challenges such as high investment costs, unclear benefits, and a lack of FHIR knowledge persist, but the landscape remains optimistic with a notable increase in the expected rate of adoption.
+- Prescriptions / Pharmacy
+- Referrals / Continuity of care
+- Provider directory
+- Public Health Reporting
+- Diagnostic Orders/Reports
+- Consent
+- Clinical Decision Support
+- Imaging
+- Immunizations
 
-#### Specific Techniques
+These cases show FHIR's versatility in addressing various healthcare data interoperability needs.
 
-Detailed insights from the 2024 survey highlight the widespread use of *SMART on FHIR* and *FHIR Rest API*, which are rated highly among adopters. Other techniques such as *CDS Hooks*, *FHIR Bulk Data*, and *FHIRcast* show varied levels of implementation, indicating areas of growth and improvement within the community.
+## Who's Using FHIR
 
-### Additional Information
+FHIR is being adopted by a diverse set of organizations across the healthcare ecosystem:
 
-Patient advocacy remains a critical aspect of healthcare data availability, although not specifically focused on FHIR. Successful use cases, particularly in patient and provider access via apps, continue to demonstrate improvements in cost efficiency, healthcare outcomes, and information accessibility.
+- **Care Providers & EHR System Vendors**: Actively implementing FHIR for better interoperability.
+- **App Developers**: Leveraging FHIR to create innovative healthcare applications.
 
+The primary reasons for FHIR adoption include regulatory requirements and the desire to improve healthcare outcomes and access to information.
 
-In conclusion, the state of FHIR in the United States reflects a solid framework of regulation, adoption, and infrastructure, underscored by collaborative efforts from key national organizations and stakeholders. With ongoing enhancements and a forward-looking approach, the FHIR ecosystem in the U.S. is well-positioned to drive significant advancements in healthcare interoperability and innovation.
+## Success Stories and Challenges
 
-*This summary presents the current state of Fast Healthcare Interoperability Resources (FHIR) in the United States of America based on the [HL7 FHIR DevDays](https://devdays.com) 2024 State of FHIR survey results provided by Matt Rahn of Health and Human Services/Office of the National Coordinator for Health Information Technology and HL7 US Realm Steering Committee Co-Chair Brett Marquard.*
-*Additional background was added based on the answers to the [HL7 FHIR DevDays State of FHIR survey 2023](https://fire.ly/blog/fhir-maturity-and-adoption-around-the-world/) by Realm Steering Committee Co-chairs Brett Marquard and Steve Posnack.*
+While there are clear benefits to FHIR adoption, such as lowered costs and improved access to information, challenges remain:
+
+- **Benefits**: Better access to healthcare information and improved care workflows.
+- **Challenges**: High investment costs and a lack of clear understanding of FHIR's benefits.
+
+The survey underscores the need for more education on FHIR and its potential impact on healthcare.
+
+## Future Plans for FHIR
+
+The United States is on a path towards expanded adoption of FHIR, with new standards being developed for specific use cases and a push for wider adoption across the healthcare ecosystem. However, progress has been slower than expected, leading to some dissatisfaction with the current rate of FHIR adoption. Looking ahead, stakeholders remain neutral about the immediate benefits but acknowledge the potential for significant cost savings and enhanced care coordination in the long term.
+
+---
+
+This document provides an overview based on survey responses and aims to present a clear picture of the current state and future expectations for FHIR adoption in the United States.
+
+*The above summary is based on the answers to the State of FHIR Survey 2025, organized by Firely and HL7 International.*

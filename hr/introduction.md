@@ -1,34 +1,66 @@
-*This overview is based on the insights gathered from the DevDays 2024 State of FHIR survey.*
+**In Croatia**, FHIR (Fast Healthcare Interoperability Resources) is starting to be used for exchanging healthcare data. Currently, the most active FHIR version in use is R4, indicating some level of modern implementation. Respondents to the survey anticipate significant growth in the adoption of FHIR in the coming years, signaling a positive outlook towards leveraging this standard for healthcare data interoperability.
 
-### Regulation
+## Rules and Support
 
-Croatia's health data exchange is guided by the [Law on Data and Information in Healthcare](https://www.zakon.hr/z/1883/Zakon-o-podacima-i-informacijama-u-zdravstvu), which prescribes standards but does not explicitly mention FHIR. Compliance deadlines and fines are not part of this regulation. The Central Healthcare Information System of the Republic of Croatia (CEZIH) is heavily based on HL7 standards, with some functionalities adopting FHIR. CEZIH serves as a comprehensive platform for healthcare information exchange, encompassing electronic health records, patient portals, and national applications.
+- **Health Data Exchange Rules**
+  - A central eHealth system, CEZIH, mandates the use of healthcare IT standards, including FHIR, for data exchange among healthcare institutions.
+- **FHIR Requirements**
+  - Regulations advise the use of FHIR but do not specifically mandate it.
+- **Deadlines and Fines**
+  - There are no specified deadlines or fines for non-compliance.
+- **Funding**
+  - Currently, there are no government funds available to stimulate FHIR adoption.
+- **Regulation Links**
+  - More about health data regulations and CEZIH can be found [here](https://narodne-novine.nn.hr/clanci/sluzbeni/2019_02_14_269.html).
 
-### Adoption
+## National Setup
 
-FHIR is in its nascent stages in Croatia, with initial use in select cases. The R4 version is the most recognized among current adopters, anticipating a significant rise in FHIR adoption in the future. The main drivers include regulation, improved care, and innovative solutions fostering greater interoperability via HL7 FHIR.
+- **Standards Organization**
+  - Croatia has a national organization responsible for health data standards, linked [here](http://www.hl7.hr).
+- **Implementation Guides**
+  - A base/core FHIR Implementation Guide for Croatia, used in a limited set of cases, is available [here](https://simplifier.net/guide/cezih-osnova/Po%C4%8Detna).
+- **Terminology Services**
+  - Croatia has a national FHIR terminology server in production.
 
-### Authoritative Bodies
+## Active Use Cases
 
-The Ministry of Health plays a pivotal role in the implementation and regulatory framework of health data standards in Croatia. Additionally, the [Croatian Institute of Public Health](https://www.hzjz.hr/en/) and [HL7 Croatia](https://www.hl7.hr/) are significant stakeholders, providing oversight and guidance in this domain.
+- **Local Implementations**
+  - The Croatian Oncology Database is a noted successful FHIR use case.
+- **International Standards Use**
+  - No specific mentions.
+- **Key Projects**
+  - The integration of emergency services is a future use case being looked forward to.
 
-### Relevant Institutes
+## Who's Using FHIR
 
-Organizations spearheading FHIR adoption include Ericsson Nikola Tesla d.d. and IN2, alongside key healthcare providers, payers, insurers, EHR vendors, and app developers. This collaborative ecosystem is integral to the advancement and implementation of FHIR standards within Croatia.
+- **Active Organizations**
+  - EHR system vendors and app developers are actively involved.
+- **Reasons for Adoption**
+  - Improved healthcare outcomes and access to information are the main benefits noted.
+- **Usage**
+  - FHIR is being used for messaging, documents, and REST API functionalities.
 
-### National Standards Development
+## Success Stories and Challenges
 
-Croatia lacks a specific national organization dedicated to developing health data exchange standards. However, the CEZIH project serves as the de facto framework, evolving national eHealth standards primarily based on HL7 v2 and advancing towards FHIR for more nuanced, specific use cases.
+- **Benefits**
+  - The Croatian Oncology Database project is highlighted as a clear success, improving healthcare outcomes and access to information.
+- **Challenges**
+  - The main difficulties include lack of FHIR knowledge and unclear benefits.
+- **Future Plans**
+  - Expanding the Oncology Database project to other medical specialties for national data exchange is anticipated.
 
-### Terminology Usage
+## Future Plans
 
-The transition to FHIR is expected to enhance terminology standardization, facilitating better interoperability and data sharing across different healthcare systems.
+- **Progress So Far**
+  - There has been "quite the progress" expected in FHIR adoption over the last year, with respondents being satisfied.
+- **Next Steps**
+  - Development of a national FHIR data model and new standards for specific use cases are underway.
+- **Expected Changes**
+  - Strong agreement exists that FHIR adoption will lead to significant cost savings, enhanced care coordination, and a robust digital health ecosystem in the next three years.
 
-### Infrastructure
+## Contributors
 
-Croatia's healthcare infrastructure is well-grounded in the CEZIH system, which mandates that all medical information exchanges pass through its centralized platform. This mandate ensures that all integrated applications and information systems adhere to the relevant standards and interfaces.
+- Kresimir Kers, Product Manager at Ericsson Nikola Tesla d.d.
+- Siniša Košćina, Business Development Director, Healthcare at IN2
 
-
-In conclusion, while FHIR's adoption in Croatia is still in its early stages, the regulatory framework and infrastructure reflect a strong foundation for future growth. The collaborative efforts among regulatory bodies, healthcare providers, and technology organizations signal a promising trajectory for FHIR's enhanced role in Croatia's healthcare landscape.
-
-*This summary presents the current state of Fast Healthcare Interoperability Resources (FHIR) in Croatia based on the [HL7 FHIR DevDays](https://devdays.com) 2024 State of FHIR survey results provided by Darko Gvozdanović of Ericsson Nikola Tesla and others.*
+*The above summary is based on the answers to the State of FHIR Survey 2025, organized by Firely and HL7 International.*

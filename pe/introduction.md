@@ -1,8 +1,4 @@
-*The following is based on the answers to the [State of FHIR survey 2023](https://fire.ly/blog/fhir-maturity-and-adoption-around-the-world/) from Styp Canto Rondón, HL7 Perú.*
-
-## Regulation
-
-Peru has shown an interest in adopting FHIR, with several legislative documents, such as the Digital Government Law (DL. No. 1412) and the Digital Government Secretary Resolution (No. 002-2019-PCM/SEGDI), mentioning FHIR as a mandated standard. However, the implementation of these standards is still in the early stages, and there are no fines or compliance deadlines established yet. The Peruvian government, through the Ministry of Health (MINSA) and the Administrative Directorate, has expressed commitment to digital health, as evidenced by their participation in the "American Network for the Cooperation on Electronic Health-RACSEL" ([RACSEL](http://www.racsel.org/)).
+**Peru** has shown an interest in adopting FHIR, with several legislative documents, such as the Digital Government Law (DL. No. 1412) and the Digital Government Secretary Resolution (No. 002-2019-PCM/SEGDI), mentioning FHIR as a mandated standard. However, the implementation of these standards is still in the early stages, and there are no fines or compliance deadlines established yet. The Peruvian government, through the Ministry of Health (MINSA) and the Administrative Directorate, has expressed commitment to digital health, as evidenced by their participation in the "American Network for the Cooperation on Electronic Health-RACSEL" ([RACSEL](http://www.racsel.org/)).
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/byyUaJew8jo?si=yAznWUZbNCRgzxum" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -18,4 +14,6 @@ Challenges such as high investment costs, unclear regulations, and a lack of FHI
 
 Stakeholders in Peru's FHIR adoption include government entities, academia, and enterprises, all contributing to the progress towards a more integrated and interoperable healthcare system.
 
-*It is clear that while there is a mandate and advocacy for FHIR, practical application and development are still ongoing.*
+It is clear that while there is a mandate and advocacy for FHIR, practical application and development are still ongoing.
+
+*The above summary is based on the answers to the [State of FHIR survey 2023](https://fire.ly/blog/fhir-maturity-and-adoption-around-the-world/) from Styp Canto Rondón, HL7 Perú.*

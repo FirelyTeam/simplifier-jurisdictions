@@ -1,17 +1,42 @@
-*The following is based on the answers to the [State of FHIR survey 2023](https://fire.ly/blog/fhir-maturity-and-adoption-around-the-world/) from Eva Sabajova, Slovak National Health Information Centre.*
+**In Slovakia**, the use of FHIR (Fast Healthcare Interoperability Resources) for exchanging healthcare data is in its early stages, with limited current usage. There's no specific information on active FHIR versions in use, such as DSTU2, STU3, R4, etc., as the survey responses are marked with a question mark for these fields. However, there's an expectation for a significant increase in the adoption of FHIR in the coming years, despite the present challenges and the nascent stage of implementation.
 
-## Regulation
+## Rules and Support for Health Data Exchange
+- **Regulations**: Slovakia has regulations mandating the use of standards in electronic health data exchange.
+  - **FHIR Mention**: The regulation does not specifically mention FHIR.
+  - **Deadlines and Fines**: There are no deadlines for compliance nor fines for non-compliance mentioned.
+- **Funding**: There are no government funds available specifically to stimulate the adoption of FHIR.
+- **Relevant Regulations**: 
+  - Decree No. 107/2015 Coll. and No. 34/2022 Coll. of the Ministry of Health of the Slovak Republic establish standards of health informatics and deadlines for the provision of data. More details can be found in Slovak legislation documents.
 
-In Slovakia, the adoption of FHIR is anticipated, particularly with the European Health Data Space (EHDS) regulation expected to make FHIR mandatory for defined use cases. The current standard is ISO 13606, as specified by Decree 107/2015 of the SK Ministry of Health about healthcare IT standards, which does not explicitly mention FHIR. Details regarding compliance deadlines or fines for not meeting the standards remain unclear.
+## National Setup
+- **Standards Organization**: The National Centre of Health Information (NCZI) is responsible for health data standards in Slovakia. Visit [NCZI](https://www.nczisk.sk/en/Pages/default.aspx) for more information.
+- **Implementation Guides**: Currently, Slovakia does not have officially published national FHIR specifications or implementation guides.
+- **Terminology Services**: A national FHIR terminology server is in planning but not yet available.
 
-## National Standards Development
+## Active Use Cases
+- **Local Implementations**: Specific local implementations of FHIR were not detailed, indicating a broader need for development in this area.
+- **International Standards Use**: Slovakia has not yet adopted international FHIR specifications as a formal basis.
+- **Key Projects**: The upcoming update of the National Health Information System (NHIS) is expected to include new digital health services requiring FHIR implementation.
 
-The Slovak National Health Information Centre is the key organization involved in health data standards, including the potential integration of FHIR. Although there is no national FHIR data model or specific FHIR standards for Slovakia at this time, the country is moving towards piloting FHIR implementation use cases, such as Hospital Discharge reports within the XpanDH project.
+## Who's Using FHIR
+- **Organizations**: The survey does not list specific organizations actively using FHIR, but mentions roles such as diagnostic system vendors and app developers as engaged with FHIR.
+- **Reasons for Adoption**: The expectation of improved healthcare outcomes, improved access to information, and improved care workflows are main motivators.
+- **Usage**: FHIR is seen as a potential framework for innovation in healthcare data exchange and interoperability.
 
-## FHIR Implementation
+## Success Stories and Challenges
+- **Benefits**: Early adopters have noted improved healthcare outcomes, access to information, and care workflows as significant benefits of FHIR.
+- **Real Examples**: Exact examples were not provided, reflecting the early stage of FHIR adoption in Slovakia.
+- **Difficulties**: A lack of FHIR knowledge and changes in political direction are cited as main challenges.
+- **Future Plans**: The country looks forward to the NHIS update and compliance with the European Health Data Space (EHDS) Regulation as key FHIR implementation projects.
 
-FHIR has not yet been widely adopted in Slovakia, with the rate of current use being minimal. However, there is a clear recognition of the high investment cost and the need to build FHIR knowledge within the country. These are seen as significant factors that will influence the pace and success of FHIR's adoption.
+## Future Plans
+- **Progress**: There is an acknowledgment of the progress made in FHIR adoption, although satisfaction levels vary.
+- **Next Steps**: Expansion of FHIR across the healthcare ecosystem, including launching pilot projects with healthcare stakeholders.
+- **Expected Changes**: Significant cost savings, enhanced care coordination, and a more robust digital health ecosystem are anticipated benefits in the next three years.
 
-While no specific patient advocacy groups focusing on health data standards were mentioned, the country's overall drive toward regulation and innovation in healthcare suggests an underlying support for improved healthcare outcomes and access to information through standards like FHIR.
+## Contributors
+- Eva Sabajova, Chair at HL7 Slovakia, Digital Health Slovakia
 
-*With impending EHDS regulations, Slovakia is poised to embrace FHIR more fully in the healthcare sector, aligning with broader European trends toward standardized health data exchange.*
+This document reflects the current state and future expectations for FHIR in Slovakia based on a survey response and aims to provide a simple, clear overview for a general audience.
+
+*The above summary is based on the answers to the State of FHIR Survey 2025, organized by Firely and HL7 International.*

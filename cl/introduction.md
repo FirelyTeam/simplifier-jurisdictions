@@ -1,19 +1,61 @@
-*The following is based on the answers to the [State of FHIR survey 2023](https://fire.ly/blog/fhir-maturity-and-adoption-around-the-world/) from César Galindo, HL7 Chile.*
-
-## Regulation
-
-Chile's engagement with FHIR is increasing, especially with regulatory attention. Although FHIR is not specifically mentioned, the Medical Records for Telemedicine regulation and the ongoing discussion in the Chilean Senate about the EHR Interoperability Law (Ley 21.541) indicate a move towards standardized health data exchange. Compliance with the new regulation will be required by August 2024, and it seems there are penalties for non-compliance, although no funds are specifically designated for FHIR adoption.
+**In Chile**, FHIR (Fast Healthcare Interoperability Resources) is becoming an increasingly important standard for the exchange of healthcare data. Currently, the version R4 is most widely used, with promising adoption levels and significant plans for future implementation. The country expects to see a rise in the use of FHIR in the coming years, driven by regulatory support and the active development of implementation guides.
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/byyUaJew8jo?si=yAznWUZbNCRgzxum" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## National Standards Development
+## Rules and Support
+- **Health Data Exchange Rules and FHIR Requirements:**
+  - Chile has regulations mandating the use of standards in electronic health data exchange.
+  - FHIR is specifically mandated in these regulations.
+  - There is no deadline for compliance mentioned, nor are there fines for non-compliance.
+- **Available Funding:**
+  - Government funds are available to stimulate the adoption of FHIR.
+- **Relevant Regulations and Funds Links:**
+  - Law 21541 of Telemedicine and its technical normative No. 237; Law 21688 of Interoperable Health Registry. [Ley 21668](https://www.bcn.cl/leychile/navegar?idNorma=1203827), [Norma general técnica 237](https://portalsaluddigital.minsal.cl/wp-content/uploads/2025/01/2025.01.06_NORMA-TECNICA-PRESTACIONES-DE-SALUD-A-DISTANCIA-Y-TELEMEDICINA.pdf)
 
-HL7 Chile is the principal national standards organization and has developed the FHIR Core-Cl, which is beginning to be utilized by the government and the wider ecosystem. However, there is currently no published national FHIR data model for Chile. The few existing FHIR standards have been developed with the aim of enhancing interoperability and are being adopted at various levels.
+## National Setup
+- **Standards Organization:**
+  - DEIS and HL7 Chile are responsible for health data standards in Chile. [DEIS](https://deis.minsal.cl/), [HL7 Chile](https://hl7chile.cl/)
+- **Implementation Guides:**
+  - A widely used base/core FHIR implementation guide is available. [Chilean Core Implementation Guide](https://build.fhir.org/ig/HL7Chile/clcore_ig/)
+- **Terminology Services:**
+  - A national FHIR terminology server is currently in development.
 
-## FHIR Implementation
+## Active Use Cases
+- **Local Implementations and International Standards Use:**
+  - Use cases include specialty care waiting times and national electronic prescriptions.
+  - International Patient Summary and other specific use cases like referrals/continuity of care, public health reporting, and immunizations.
+- **Key Projects:**
+  - Projects focusing on patient history summaries, primary care agenda, and immunizations.
 
-FHIR's adoption rate in Chile is moderate but expected to grow. With the absence of a national data model, FHIR implementation has been focused on specific use cases like the National Electronic Prescription service, which showcases the standard's potential to improve healthcare outcomes and information access. 
+## Who's Using FHIR
+- **Active Organizations:**
+  - Government, EHR system vendors, and care providers are actively using FHIR.
+- **Main Reasons for Adoption:**
+  - Improving healthcare outcomes, access to information, and care workflows.
+- **How They're Using FHIR:**
+  - Through FHIR Messaging, REST API, and SMART on FHIR among others.
 
-The healthcare ecosystem, including care providers and app developers, is actively engaging in innovation, with patient advocacy groups like Agrupacion de Pacientes de Chile and Grupo de Cyberseguridad de Pacientes contributing to the dialogue on healthcare data availability. While the benefits of FHIR are acknowledged, challenges such as unclear regulations and a general lack of FHIR knowledge are prevalent.
+## Success Stories and Challenges
+- **Clear Benefits:**
+  - Improved healthcare outcomes and access to information have been noted as significant benefits.
+- **Real Examples:**
+  - Specialty care waiting times and national electronic prescriptions projects are highlighted successes.
+- **Main Difficulties:**
+  - Challenges include unclear benefits, lack of FHIR knowledge, and changes in political direction.
+- **Future Plans:**
+  - Looking forward to implementing patient summaries, surgical waiting times, and prescriptions among other use cases.
 
-*Looking forward, there is optimism for FHIR's role in expanding to other areas such as insurance and billing, as well as mental health. The involvement of stakeholders like the Ministry of Health and CENS Chile is crucial for the complete adoption of FHIR in the country.*
+## Future Plans
+- **Progress So Far:**
+  - Chile has made more progress than expected in the last year regarding FHIR adoption.
+- **Next Steps:**
+  - Development of a national FHIR data model and new regulations to prescribe the use of standards.
+- **Expected Changes:**
+  - In the next three years, significant benefits from FHIR adoption are anticipated, including cost savings and enhanced care coordination.
+
+## Contributors
+- César Galindo, President of HL7 Chile
+
+This document provides an overview based on survey responses about FHIR implementation and usage in Chile. It highlights the current status, regulations, active use cases, and future plans for FHIR in the Chilean healthcare ecosystem.
+
+*The above summary is based on the answers to the State of FHIR Survey 2025, organized by Firely and HL7 International.*

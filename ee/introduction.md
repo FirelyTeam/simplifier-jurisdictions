@@ -1,19 +1,90 @@
-*The following is based on the answers to the [State of FHIR survey 2023](https://fire.ly/blog/fhir-maturity-and-adoption-around-the-world/) from Ragne Õitspuu, TEHIK.*
-
-## Regulation
-
-Estonia has a well-established regulation for health data exchange within the National Health Information System since 2008, articulated through the Tervishoiuteenuste korraldamise seadus ([Health Services Organization Act](https://www.riigiteataja.ee/en/eli/510042023001/consolide)). This legislation does not specifically mention FHIR, but Estonia is currently transitioning from Clinical Document Architecture (CDA) to FHIR. The change in standards is guided by national eHealth roadmap and strategy documents, suggesting a gradual and planned shift with existing regulations expected to persist.
+**In Estonia**, the use of the Fast Healthcare Interoperability Resources (FHIR) standard is in its early stages but shows promising growth. The adoption of various FHIR versions varies, with R4 being utilized to a limited extent and significant anticipation for the R5 version. Expectations are high for the increased adoption of FHIR in the coming years, driven by the evolving needs of healthcare data exchange and the global move towards more standardized healthcare information systems.
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/videoseries?si=X_mAwaGTboeC4yOV&amp;list=PLAPVWVA2xKFjiNHGfLAVbjMe_p4VCab8x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## National Standards Development
+## Rules and Support
 
-TEHIK, the Estonian Health and Welfare Information Systems Centre, is the primary national standards organization overseeing most health data exchange standards. A national FHIR data model is under development and partially published on [Simplifier.net](https://simplifier.net/guide/ee-fhir-base?version=current). There are several FHIR standards for specific use cases evolving from this data model, in line with Estonia’s approach to implementing an information model layer for healthcare data.
+- **Health Data Exchange Rules and Regulations**:
+  - The "Health Information System Statute" mandates healthcare service providers to adhere to information system standards set by TEHIK.
+  - Specific data exchange standards are not detailed, but future services will be based on FHIR standards.
 
-## FHIR Implementation
+- **FHIR Requirements and Deadlines**:
+  - No specific mention of FHIR in current regulations.
+  - No deadlines or fines for non-compliance mentioned.
 
-The adoption of FHIR is expected to grow substantially, with a strategic transition from CDA to FHIR. This gradual transition will allow both standards to be used concurrently for the foreseeable future, ensuring a smooth adaptation for various stakeholders. Successful FHIR implementations include the Clinical Data Viewer by TEHIK and data exchanges with the European Medicines Agency's Union Product Database, showcasing improved healthcare outcomes and information access. 
+- **Available Funding**:
+  - No government funds are currently available to stimulate FHIR adoption.
 
-Estonia is looking forward to implementing new use cases within the National Health Information System, such as medication schemas, laboratory data, and referrals. Despite challenges like a lack of widespread FHIR knowledge, there is optimism for broader implementation, evidenced by regulation, grants, and innovation efforts.
+## National Setup
 
-*Notable stakeholders in the FHIR adoption process include HL7 Estonia (in application), various vendors like Kodality and Nortal, and organizations such as the State Agency of Medicines, Health Insurance Fund, and the Ministry of Social Affairs.*
+- **Standards Organization**:
+  - Health and Welfare Information Systems Centre (TEHIK) is responsible for health data standards in Estonia. [TEHIK](https://www.tehik.ee/en)
+
+- **Implementation Guides**:
+  - A base/core FHIR implementation guide is available for Estonia, used in a limited set of use cases. [Estonian Base Implementation Guide](https://ig.hl7.fhir.ee/ig-ee-base/)
+
+- **Terminology Services**:
+  - A national FHIR terminology server is in production, supporting the development and use of standard terminologies within FHIR implementations.
+
+## Active Use Cases
+
+- Local implementations focusing on:
+  - Master Patient Index
+  - Health declaration
+  - Estonian National Health Information System base services
+  - Allergy information
+
+- Key projects under development include:
+  - Medication Scheme
+  - Health Declaration
+  - Medical Certificate
+
+## Who's Using FHIR
+
+- **Active Organizations**:
+  - EHR system vendors
+  - Health and Welfare Information Systems Centre (TEHIK)
+
+- **Main Reasons for Adoption**:
+  - Improving health outcomes
+  - Enhancing care workflows
+  - Spearheading innovation in healthcare
+
+- **How They're Using FHIR**:
+  - Data exchange between healthcare providers
+  - Mapping data from CDA documents to FHIR standards for modular display of health information
+
+## Success Stories and Challenges
+
+- **Clear Benefits**:
+  - The Data Viewer simplifies data review by allowing dynamic data visualization and trend analysis.
+
+- **Main Difficulties**:
+  - High investment cost
+  - Lack of FHIR knowledge among stakeholders
+
+- **Future Plans**:
+  - Continued development of new FHIR standards for specific use cases
+  - Launch of pilot projects with healthcare stakeholders
+
+## Future Plans
+
+- **Progress So Far**:
+  - Less progress than expected in the previous year regarding FHIR adoption.
+
+- **Next Steps**:
+  - Development of new FHIR standards
+  - Expanded adoption of FHIR across the healthcare ecosystem
+
+- **Expected Changes**:
+  - Significant cost savings
+  - Enhanced care coordination
+  - A more robust digital health ecosystem
+
+## Contributors
+
+- Permission was granted to use the contributor's names. However, specific names are not listed in the provided survey data excerpt.
+
+This document provides a concise overview of the current state and future expectations of FHIR adoption in Estonia, based on the survey responses provided.
+
+*The above summary is based on the answers to the State of FHIR Survey 2025, organized by Firely and HL7 International.*

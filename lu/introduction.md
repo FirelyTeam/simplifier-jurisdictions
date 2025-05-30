@@ -1,8 +1,4 @@
-*The following is based on the answers to the [State of FHIR survey 2023](https://fire.ly/blog/fhir-maturity-and-adoption-around-the-world/) from Samuel Danhardt, Agence eSanté Luxembourg.*
-
-## Regulation
-
-In Luxembourg, the regulatory environment for health data exchange does not specifically mention FHIR; however, Article 60ter of the National Health Fund Code provides a general framework for health data interoperability. There is no compliance deadline or fines for non-adherence detailed, which suggests a flexible approach towards adoption. The Agence eSanté defines the eHealth Interoperability Framework within the National Interoperability Framework aligned with the European Interoperability Framework (EIF).
+**In Luxembourg**, the regulatory environment for health data exchange does not specifically mention FHIR; however, Article 60ter of the National Health Fund Code provides a general framework for health data interoperability. There is no compliance deadline or fines for non-adherence detailed, which suggests a flexible approach towards adoption. The Agence eSanté defines the eHealth Interoperability Framework within the National Interoperability Framework aligned with the European Interoperability Framework (EIF).
 
 ## National Standards Development
 
@@ -14,4 +10,6 @@ The adoption of FHIR in Luxembourg is still in its early stages, with a few proj
 
 Despite the progress, challenges like high investment costs and a lack of FHIR knowledge are recognized. The focus remains on improving care and fostering innovation in health data management through the adoption of FHIR where it's feasible and beneficial.
 
-*The Agence eSanté Luxembourg is a key stakeholder in the transition towards more widespread use of FHIR standards, working to overcome barriers and enhance the country's health IT infrastructure.*
+The Agence eSanté Luxembourg is a key stakeholder in the transition towards more widespread use of FHIR standards, working to overcome barriers and enhance the country's health IT infrastructure.
+
+*The above summary is based on the answers to the [State of FHIR survey 2023](https://fire.ly/blog/fhir-maturity-and-adoption-around-the-world/) from Samuel Danhardt, Agence eSanté Luxembourg.*

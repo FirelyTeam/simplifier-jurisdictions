@@ -1,49 +1,55 @@
-*This overview is based on the insights gathered from the DevDays 2024 State of FHIR survey.*
-
-### Regulation
-
-Belgium has robust regulations in place that specifically mandate the use of FHIR (Fast Healthcare Interoperability Resources) for electronic health data exchange. The most pivotal regulation, the [EHealth Action Plan](https://www.ehealth.fgov.be/), clearly prescribes the adoption of FHIR standards. While specific compliance deadlines are not well-documented, the absence of fines for non-compliance is counterbalanced by the availability of governmental funds aimed at stimulating FHIR adoption, fostering a supportive regulatory environment.
-
-### Adoption
-
-The adoption of FHIR in Belgium is prominently advanced, nearing mainstream status with an overall adoption score of 4 out of 5. The prevalent use of FHIR version R4 signifies a mature implementation landscape, while the anticipation of significant growth in adoption underscores a highly optimistic trajectory for FHIR expansion in the coming years.
-
-### Authoritative Bodies
-
-Belgium consist of three regions (Flanders, Wallonia and Brussels) with a high degree of autonomy, however health standards are foremost managed on a federal level. The Belgian federal governement has declared that for e-health, FHIR is the ["Preferred standard to use for e-health"](https://ehealth.fgov.be/standards/fhir/about-fhir.html).
-
-Leading the charge in the standardization and implementation of FHIR in Belgium are organizations such as [HL7 Belgium](https://www.hl7belgium.org/) and [IHE Belgium](https://ihe-europe.net/affiliates/belgium). These entities serve as central meeting grounds for various stakeholders, fostering collaboration and widespread adoption of FHIR standards across the healthcare ecosystem.
+**In Belgium**, FHIR (Fast Healthcare Interoperability Resources) is actively used to exchange healthcare data. The country currently uses the R4 version of FHIR, indicating a modern approach to health data interoperability. There's a noticeable momentum towards increasing the adoption rate of FHIR in the coming years, with expectations of significant progress. This move is supported by regulations and incentives aiming to enhance healthcare data exchange and integration.
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/videoseries?si=yhIclMohSuJSETIM&amp;list=PLAPVWVA2xKFikhIam-UmyCeebABWqyVZV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### Relevant Institutes
+## Rules and Support
+- **Health Data Exchange Regulations**:
+  - There's a mandate for the use of standards in electronic health data exchange.
+  - FHIR is explicitly mentioned and mandated in regulations.
+  - Compliance deadlines are in place, though specific details about fines for non-compliance are unclear.
+- **Support and Funding**:
+  - Government funds are available to stimulate FHIR adoption.
+  - Specific programs include homologation tests for EMRs and funding for innovative data exchange projects.
+  - Relevant links:
+    - [Belgian Meaningful Use Criteria](https://www.health.belgium.be/nl/belgian-meaningful-use-criteria-bmuc)
+    - [Data Capabilities Project Call](https://www.health.belgium.be/nl/oproep-projecten-data-capabilities)
+    - [Hospital Financing in Belgium](https://www.gezondbelgie.be/nl/blikvanger-gezondheidszorg/algemene-ziekenhuizen/financiering/het-budget-financiele-middelen)
 
-Key stakeholders in the adoption of FHIR include care providers, payers/insurers, EHR vendors, and app developers. The **eHealth Platform**, **RIZIV-INAMI**, and regional health vaults like **Vitalink**, **RSW**, and **RSB** have also been identified as crucial players, driving forward the national agenda on FHIR adoption.
+## National Setup
+- **Standards Organization**:
+  - Belgium has a national organization responsible for health data standards, accessible at [eHealth Fgov](http://www.ehealth.fgov.be/).
+- **Implementation Guides**:
+  - A base/core FHIR Implementation Guide is widely used and available at [eHealth Fgov Standards](https://www.ehealth.fgov.be/standards/fhir/core/index.html).
+- **Terminology Services**: Information on a national FHIR terminology server is under development or not clearly mentioned.
 
-### National Standards Development
+## Active Use Cases
+- Local implementations include vaccination registries and allergy information across Belgium.
+- International standards, such as European Implementation Guides, are also in use.
+- Key projects involve mapping hospital data to FHIR for both primary and secondary uses, enhancing interoperability between hospitals and software companies.
 
-Belgium has an active landscape for the development of FHIR standards, with several specific use cases already leveraging these standards. A national FHIR data model is under development: [HL7 Belgium FHIR specification](https://hl7-be.github.io/). While it is not yet published, it promises to further streamline and harmonize electronic health data exchange across the country.
+## Who's Using FHIR
+- **Organizations**:
+  - Care providers, payers/insurers, EHR system vendors, and diagnostic system vendors are actively involved.
+- **Reasons for Adoption**:
+  - Improving healthcare outcomes and care workflows are primary motivators.
+- **Usage**:
+  - FHIR is utilized through a range of applications including REST APIs, messaging, and documentation.
 
-Belgium has defined several [Implementation Guides](https://ehealth.fgov.be/standards/fhir/), ranging from Core, Vaccination, Allergy Intolerance, Medication, Clinical, national infrastructure connectivity, Lab, to security.
+## Success Stories and Challenges
+- **Benefits**:
+  - Improved access to information and potential efficiency gains are notable benefits.
+- **Real Examples**:
+  - The vaccination registry is a highlighted success story.
+- **Difficulties**:
+  - High investment costs and lack of FHIR knowledge are main challenges.
+- **Future Plans**:
+  - Looking forward to person-centric health data vaults and OPAT (Outpatient Parenteral Antimicrobial Therapy) trajectory implementations.
 
-You can find the [Belgian FHIR packages here](https://simplifier.net/search?packages=&nationality=BE) on Simplifier.
+## Future Plans
+- Belgium has made considerable progress with FHIR adoption, aiming for expanded use across the healthcare ecosystem.
+- Next steps include the development of new FHIR standards for specific use cases and launching pilot projects with healthcare stakeholders.
+- Significant changes expected in the next three years include cost savings, enhanced care coordination, and a robust digital health ecosystem.
 
-### Terminology Usage
+Contributors to this survey were not listed for privacy reasons.
 
-In Belgium, multiple base terminologies are accepted, using both SNOMED and Loinc and ICD-10 and a few national base terminologies. And because Belgium is multi-lingual, they have a bilingual thesaurus called [3BT](https://www.health.belgium.be/nl/terminologiecentrum-terminologiestelsels-de-3bt-bilingual-biclassified-belgian-thesaurus), and is now maintained as an [extension on Snomed](https://browser.ihtsdotools.org/?perspective=full&conceptId1=404684003&edition=MAIN/2024-06-01&release=&languages=en,nl,fr).
-
-### Infrastructure
-
-Belgium boasts a well-established regional and national infrastructure that supports FHIR integration. Software companies aiming to plug into this infrastructure must meet certain technical requirements ensuring seamless interoperability and data exchange. The **FHIR Rest API** and **FHIR Shorthand** are notably widely used, indicating robust and sophisticated infrastructure capabilities.
-
-The regional governements maintain their own infrastructure for data exchange, which they call 'Vaults':
-These systems are 
-- *Vitalink* (Flanders)
-- *RSW* (Wallonia)
-- *Brusafe+* (Brussels region)
-
-Health companies and organizations are encouraged to addopt FHIR and connect with national infrastructure. Their principles are focused on [openness, transparency, and collaboration]( https://ehealth.fgov.be/standards/fhir/documents/20230921_FHIR_Governance_process_v2.pdf).
-
-In conclusion, the state of FHIR in Belgium is progressive and promising. With strong regulatory backing, substantial adoption, and proactive development and infrastructure support, Belgium is well-positioned to not only standardize health data exchange but also innovate and improve healthcare outcomes significantly.
-
-*This summary presents the current state of Fast Healthcare Interoperability Resources (FHIR) in Belgium based on the HL7 FHIR DevDays 2024 State of FHIR survey results provided by José Costa Teixeira of Hl7 Belgium.*
+*The above summary is based on the answers to the State of FHIR Survey 2025, organized by Firely and HL7 International.*

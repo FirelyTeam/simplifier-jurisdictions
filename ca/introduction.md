@@ -1,17 +1,67 @@
-*The following is based on the answers to the [State of FHIR survey 2023](https://fire.ly/blog/fhir-maturity-and-adoption-around-the-world/) from Sheridan Cook, Accenture, and Attila Farkas, Canada Health Infoway.*
-
-## Regulation
-
-While Canada does not have a federal mandate for health exchange standards, provincial regulations are progressively incorporating standards, signaling a positive shift towards a unified approach to health data exchange. The absence of stringent regulations offers flexibility and adaptability in the adoption of FHIR. Notably, initiatives like the Digital Health Interoperability Program, supported by Health Canada's funding, are paving the way for improvements in health information management, indirectly benefiting FHIR's integration. For more details, visit Health Canada's [announcement](https://www.canada.ca/en/health-canada/news/2023/02/working-together-to-improve-health-care-for-canadians.html).
+**In Canada**, the adoption of FHIR (Fast Healthcare Interoperability Resources) is currently at a moderate level, with the most active version being R4, indicating some use in healthcare data exchange. Other versions like DSTU2, STU3, and R5 are less utilized, with R4B and pre-release R6 not clearly defined in their adoption. Respondents expect the adoption rate of FHIR to increase in the coming years, highlighting a positive outlook for FHIR's role in enhancing healthcare interoperability in Canada.
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/videoseries?si=NghAe1_n8xeVWNFa&amp;list=PLAPVWVA2xKFiw2TDnMVzl7LfdGixeexHJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## National Standards Development
+## Rules and Support
 
-Under the stewardship of Canada Health Infoway, the national FHIR data model development signifies a commitment to advancing healthcare interoperability. The publication of the pan-Canadian FHIR data model for the Patient Summary domain and the ongoing development of CA Core+ are milestones that reflect collaborative efforts and a clear direction towards a cohesive health data framework. These developments are accessible through the [Canadian FHIR Registry](https://simplifier.net/organization/canadianfhirregistry/~projects).
+- **Health Data Exchange Rules**: Currently, there are no regulations mandating the use of standards for electronic health data exchange, including FHIR.
+- **FHIR Requirements**: Specific mentions of FHIR in regulations were not provided.
+- **Deadlines and Fines**: No deadlines or fines are imposed for non-compliance since regulations are not explicitly mandating FHIR.
+- **Available Funding**: Government funds are available to stimulate FHIR adoption, with Infoway & CIHI, along with some provincial governments, actively investing in initiatives.
 
-## FHIR Implementation
+## National Setup
 
-The adoption of FHIR is gaining momentum among key stakeholders such as EHR vendors, app developers, and health information systems, demonstrating a robust ecosystem for FHIR implementation. Success stories, like the PrescribeIT ePrescribing standard, illustrate tangible benefits in cost reduction, improved healthcare outcomes, and enhanced information accessibility. With patient advocacy groups underscoring the importance of healthcare data availability, the environment is ripe for FHIR to flourish further. The future holds promising developments, including eReferral and primary care data exchange, aligning with international interoperability trends.
+- **Standards Organization**: Canada has a national organization responsible for health data standards, known as [Canada Health Infoway](https://www.infoway-inforoute.ca/en/).
+- **Implementation Guides**: A base/core FHIR implementation guide is in place, used in a limited set of use cases, available at [Simplifier.net/CA-Core](https://simplifier.net/CA-Core).
+- **Terminology Services**: A national FHIR terminology server is operational and in production.
 
-*This narrative showcases Canada’s proactive and forward-thinking approach in adopting FHIR, setting a positive outlook for its healthcare interoperability journey.*
+## Active Use Cases
+
+- **Local Implementations**: 
+  - Prescriptions/Pharmacy
+  - Referrals/Continuity of care
+  - Document Exchange
+  - Immunizations
+  - Provider Directory
+  - International Patient Summary
+  - International Patient Access
+
+- **International Standards Use**: Canada utilizes FHIR for international patient summaries and access, indicating a commitment to global health data interoperability.
+
+- **Key Projects**: Specific names and links to key projects were not provided, but the involvement in prescriptions, referrals, and document exchange suggests a focus on critical areas of healthcare.
+
+## Who's Using FHIR
+
+- **Active Organizations**: Care providers and jurisdictional systems are the primary users of FHIR in Canada.
+- **Main Reasons for Adoption**: 
+  - Improving health outcomes
+  - Innovation
+  - Improved data access
+- **How They're Using FHIR**: Use cases include messaging, documents, REST API, and SMART on FHIR, with moderate to high usage rates in these areas.
+
+## Success Stories and Challenges
+
+- **Benefits**: The anticipated benefits of FHIR adoption include significant cost savings, enhanced care coordination, and a more robust digital health ecosystem.
+- **Real Examples**: Specific success stories were not provided.
+- **Main Difficulties**: 
+  - Unclear regulations
+  - Lack of FHIR knowledge
+- **Future Plans**: Respondents look forward to the development of a national FHIR data model and new regulations prescribing the use of standards in health data exchange.
+
+## Future Plans
+
+- **Progress So Far**: There has been less progress than expected in the last year regarding FHIR adoption.
+- **Next Steps**: 
+  - Development of a national FHIR data model
+  - New regulation that prescribes the use of standards in electronic health data exchange
+  - Expanded adoption of FHIR across the healthcare ecosystem
+- **Expected Changes**: Within the next three years, significant benefits from FHIR adoption are anticipated, including cost savings and enhanced care coordination.
+
+## Contributors
+
+- **Name**: Lloyd McKenzie
+- **Role**: Chief Standards Officer at Dogwood Health Consulting
+
+This document provides a snapshot of FHIR's current state, initiatives, and future in Canada, based on survey responses and available information.
+
+*The above summary is based on the answers to the State of FHIR Survey 2025, organized by Firely and HL7 International.*

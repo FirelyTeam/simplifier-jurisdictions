@@ -1,2 +1,1 @@
-Relevant DevDays videos:
-* [Simone Heckmann - German introduction to FHIR | DevDays June 2022](https://youtu.be/1LSKe1VkKhc)
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/1LSKe1VkKhc?si=giQYQk3pAHe60UK-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

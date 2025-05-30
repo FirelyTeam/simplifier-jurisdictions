@@ -1,19 +1,46 @@
-*The following is based on the answers to the [State of FHIR survey 2023](https://fire.ly/blog/fhir-maturity-and-adoption-around-the-world/) from Jens Kristian Villadsen, Trifork.*
-
-## Regulation
-
-Denmark is progressing towards integrating FHIR in healthcare data exchange, although specific regulations that prescribe the use of FHIR standards are not clearly indicated. There is an absence of information about deadlines for compliance and whether there are any fines for not adhering to such regulations. Currently, there are no known funds or programs explicitly designed to stimulate the adoption of FHIR in Denmark.
+**In Denmark**, FHIR (Fast Healthcare Interoperability Resources) is becoming a cornerstone for exchanging healthcare data. Currently, Denmark utilizes various versions of FHIR, with R4 being the most prominent. The country is witnessing a gradual but steady adoption of FHIR standards, with an expectation of increased use in the coming years. This growth is anticipated despite the absence of specific mentions of FHIR in current regulations.
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/videoseries?si=RXm12tm51cS-Lq9a&amp;list=PLAPVWVA2xKFj6o-C2onwnAsJGDMXtQ6yS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## National Standards Development
+## Rules and Support
 
-Sundhedsdatastyrelsen, the Danish Health Data Authority, is at the forefront of national standards development, including FHIR. The national FHIR data model is operational but is being used in a limited set of use cases. Documentation related to this can be found on the [Danish eHealth portal](https://docs.ehealth.sundhed.dk/). A few FHIR standards for more specific use cases have been developed, and some of these are derived from the national FHIR data model.
+- Health data exchange in Denmark is regulated, with mandates for using standardized formats.
+- While regulations do not specify FHIR, its adoption is influenced by general standards requirements.
+- Deadlines for compliance and details on penalties are not widely known.
+- No government funds are directly allocated for FHIR adoption. However, information about regulations can be found [here](https://sundhedsdatastyrelsen.dk/digitale-loesninger/referencearkitektur-og-standarder/udvalg).
 
-## FHIR Implementation
+## National Setup
 
-FHIR adoption is expected to continue growing moderately. Its current use is relatively established and is seen in a few successful implementations that have improved access to information. The Future of Health Technology (FUT) is one such example, although detailed information about it was not provided. 
+- **Standards Organization:** Denmark has dedicated organizations like MedCom and RUSA for health data standards. More details can be found [here](https://sundhedsdatastyrelsen.dk/digitale-loesninger/referencearkitektur-og-standarder/udvalg).
+- **Implementation Guides:** A base/core FHIR implementation guide specific to Denmark is available, highlighting limited use cases. Access the guide [here](https://hl7.dk/).
+- **Terminology Services:** A national FHIR terminology server is in planning but not yet in production.
 
-Challenges such as high investment costs, perceived unclear benefits, and a lack of knowledge about FHIR are recognized barriers to its widespread implementation. Despite these challenges, Denmark is noted for its innovative approach to EHR systems and healthcare data management.
+## Active Use Cases
 
-*While there is patient advocacy for the availability of healthcare data, led by groups like Danske Patienter, these efforts do not specifically focus on health data standards such as FHIR. Nonetheless, improved access to information remains a key outcome of the existing FHIR implementations.*
+- Denmark has seen the development of FHIR standards for specific use cases, including public health reporting and document exchange.
+- The country has been active in both local implementations and adapting international standards.
+- Key projects include FUT (an e-health platform) and efforts towards SMART/IPA and IHE MHD interfacing.
+
+## Who's Using FHIR
+
+- Organizations involved range from care providers to EHR (Electronic Health Record) system vendors.
+- The main reasons for FHIR adoption include regulation compliance, modernization of data exchange, and innovation.
+- FHIR is being used for messaging, document exchange, and REST APIs, among others.
+
+## Success Stories and Challenges
+
+- Successful use cases have led to improved access to information and care workflows. Examples include [FUT](https://ehealth.sundhed.dk/fhir/) and the DK MedCom Hospital Notification.
+- Main difficulties include high investment costs, unclear benefits, and a lack of FHIR-specific knowledge.
+- Future plans are focusing on expanding FUT, more SMART/IPA implementations, and further interfacing with IHE MHD.
+
+## Future Plans
+
+- Denmark expects to continue making progress in FHIR adoption, with plans for new standards development and pilot projects.
+- The country is working towards expanded adoption across the healthcare ecosystem, in partnership with national agencies.
+- Significant cost savings, enhanced care coordination, and a robust digital health ecosystem are anticipated benefits in the coming years.
+
+## Contributors
+
+As per the survey agreement, individual contributors' names are not disclosed.
+
+*The above summary is based on the answers to the State of FHIR Survey 2025, organized by Firely and HL7 International.*

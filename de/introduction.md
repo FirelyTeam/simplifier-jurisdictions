@@ -1,57 +1,73 @@
-*This overview is based on the insights gathered from the DevDays 2024 State of FHIR survey, with a comparison to the 2023 survey to highlight the progress and changes.*
-
-### Regulation
-
-Germany has established a robust regulatory framework to guide the use of standards in electronic health data exchange. Key regulations include the Sozialgesetzbuch V (SGB V), Digital-Gesetz (DigiG), and various initiatives like ISIK, OEGD, genomDE, KHZG, ePrescription, and Medication. Notably, FHIR is explicitly mandated in some regulations, with compliance deadlines such as January 1, 2025. While some regulations impose fines for non-compliance, others are supported by funding programs to stimulate FHIR adoption. The interoperability coordination council, with multiple subgroups, plays a crucial role in this ecosystem.
-
-### Adoption
-
-FHIR adoption in Germany is gradually expanding, primarily driven by regulations and grants. Although currently used in a few specific use cases, the adoption rate is expected to significantly increase in the coming years. The most widely used FHIR version is R4, while other versions like STU3 and R5 are also in use to a lesser extent.
-
-*In 2024, the adoption rate expectation is slightly lower compared to 2023, reflecting a more cautious optimism. Current FHIR usage remains consistent, with ongoing efforts to expand its application.*
-
-### Authoritative Bodies
-
-The key authoritative bodies in Germany include the Kompetenzzentrum für Interoperabilität (KIG), the Interoperability Council, and organizations such as DIN, HL7 Germany, and SITIG. These bodies are instrumental in developing and maintaining standards for electronic health data exchange.
+**In Germany**, FHIR (Fast Healthcare Interoperability Resources) is increasingly being used to exchange healthcare data. This standard helps healthcare providers to share clinical and administrative data more efficiently. Currently, the most active FHIR version in use is R4, indicating that Germany is keeping pace with international standards. Respondents anticipate a continued rise in the adoption of FHIR in the coming years, driven by both national regulations and the healthcare sector's push for better interoperability.
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/videoseries?si=wZraKO1rR3LdXDNp&amp;list=PLAPVWVA2xKFj8THBU-RlvFDnJpgU_T3F3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### Relevant Institutes
+## Rules and Support
 
-Prominent institutes involved in FHIR implementation include the Kassenärztliche Bundesvereinigung (KBV), gematik, and Charité University Medicine. These organizations contribute significantly to the development and adoption of FHIR standards within the healthcare system.
+- **Health data exchange rules:**
+  - A regulation mandates the use of standards in electronic health data exchange.
+  - FHIR is specifically mentioned and mandated by this regulation.
+- **Deadlines and penalties:**
+  - Compliance deadlines are set.
+  - Fines are imposed for not meeting these deadlines.
+- **Funding:**
+  - Government funds to stimulate FHIR adoption are not universally available, but some initiatives are supported.
+- **Regulations and Funds Information:**
+  - Detailed regulations can be found in *Sozialgesetzbuch V (SGB V)* and the operations of the *Competence Center for Interoperability in Healthcare* (no direct link provided).
 
-### National Standards Development
+## National Setup
 
-Germany has a national FHIR data model that is being utilized in limited use cases. This model is published and accessible through platforms like [Simplifier](https://simplifier.net/Basisprofil-DE-R4) and the [Medical Informatics Initiative](https://www.medizininformatik-initiative.de/en/collaboration/interoperability-working-group). Numerous specific FHIR standards have been developed, often deriving from the national FHIR data model. The Gematik National Competence Center is a key player in this domain.
+- **Standards Organization:**
+  - Germany has a national organization responsible for health data standards, such as [gematik](https://www.gematik.de) and [KBV](https://kbv.de).
+- **Implementation Guides:**
+  - A widely used base/core FHIR implementation guide is available at [Basisprofil DE R4](https://simplifier.net/basisprofil-de-r4).
+- **Terminology Services:**
+  - A national FHIR terminology server is in production, facilitating standardized vocabularies for healthcare terms.
 
-*In 2024, there is a noted increase in the specific use cases for the national FHIR data model, reflecting its growing application.*
+## Active Use Cases
 
-### Infrastructure
+- **Local Implementations:**
+  - Prescriptions/Pharmacy
+  - Provider Directory
+  - Public Health Reporting
+  - Patient Access
+- **International Standards Use:**
+  - International Patient Summary
+  - European Implementation Guides
+- **Key Projects:**
+  - ePrescription (eRezept)
+  - Medical Informatics Initiative
 
-Germany boasts a comprehensive regional and national infrastructure to support FHIR adoption. Key infrastructure components include the interoperability coordination council and various national initiatives. Software companies are required to integrate seamlessly with this infrastructure, ensuring compliance with established standards and regulations.
+## Who's Using FHIR
 
-FHIR implementation in Germany involves various features and techniques, with FHIR Documents and FHIR Shorthand being widely used. Other features like FHIR Bulk Data, FHIR Rest API, and FHIR Questionnaires and SDC also see considerable use. Patient advocacy groups, such as the [GBA](https://patientenvertretung.g-ba.de/wer-wir-sind/patientenvertreterinnen-und-patientenvertreter-beim-g-ba/) and the [Patient Representative](https://patientenbeauftragter.de/), actively promote the availability of healthcare data, including attention to FHIR standards.
+- Active organizations include care providers, payers/insurers, EHR system vendors, and app developers.
+- Main reasons for adoption:
+  - Regulation and grants
+  - Innovation
+- FHIR is used for messaging, document exchange, REST APIs, and more, reflecting its versatility in healthcare interoperability.
 
-*The 2024 we see more specific FHIR features being used and patient advocacy groups are highlighted more clearly.*
+## Success Stories and Challenges
 
-### Successful FHIR Use Cases
+- **Benefits:**
+  - Improved healthcare outcomes and access to information.
+  - Better care workflows, as seen in the German ePrescription initiative.
+- **Challenges:**
+  - High investment costs and lack of FHIR knowledge.
+  - Difficulty in navigating regulations for some stakeholders.
+- **Future Plans:**
+  - Anticipation of significant cost savings, enhanced care coordination, and a more robust digital health ecosystem through FHIR adoption.
 
-Germany has seen several successful FHIR use cases, including eRezept, eAU, VoS, AWS, Kollegensuche, and eTS. These implementations have led to improved access to information and process improvements, demonstrating the tangible benefits of FHIR adoption.
+## Future Plans
 
-*Compared to 2023, our 2024 survey lists additional use cases, indicating ongoing progress and innovation.*
+- So far, there's been considerable progress in FHIR adoption, matching or exceeding expectations in some areas.
+- Next steps include the development of more specific use cases and continued expansion of FHIR across the healthcare ecosystem.
+- Expected changes include further improvements in interoperability and healthcare outcomes, driven by FHIR.
 
-### Challenges and Future Use Cases
+## Contributors
 
-The biggest challenges for FHIR adoption in Germany remain high investment costs and a lack of FHIR knowledge. However, upcoming use cases such as eMP MIO, eVDGA, KHE MIO, PKA MIO, LAB MIO, and EHR are anticipated to drive further adoption and innovation.
+- Maximilian Reith, KBV
+- Dennis Kipping, mio42 GmbH
+- Dr. Kai Heitmann, HL7 Germany
+- Sylvia Thun, Charité - Universitätsmedizin Berlin
 
-*The 2024 survey highlights a broader range of future use cases, reflecting a dynamic and forward-looking approach to FHIR implementation.*
-
-### Conclusion
-
-Germany is on a promising path toward widespread FHIR adoption, driven by strong regulatory support and collaborative efforts among key stakeholders. With continued investment and focus on interoperability, the future of FHIR in Germany looks bright.
-
-This overview provides a snapshot of the current state of FHIR in Germany, highlighting the key factors influencing its adoption and implementation, with a more detailed and varied perspective compared to the previous year.
-
-*This summary presents the current state of Fast Healthcare Interoperability Resources (FHIR) in [COUNTRY] based on the [HL7 FHIR DevDays](https://devdays.com) 2024 State of FHIR survey results provided, among others, by Maximilian Reith of the Kassenärztliche Bundesvereinigung (KBV), Dennis Kipping at mio42 GmbH and Sylvia Thun of Charité Universitätsmedizin.*
-
-*Additional background was added based on the answers to the [HL7 FHIR DevDays State of FHIR survey 2023](https://fire.ly/blog/fhir-maturity-and-adoption-around-the-world/) including from Maximilian Reith, Kassenärztliche Bundesvereinigung (KBV), Simone Heckmann, Gefyra GmbH / HL7 Germany e.V., Sylvia, Charité Universitätsmedizin Berlin.*
+*The above summary is based on the answers to the State of FHIR Survey 2025, organized by Firely and HL7 International.*

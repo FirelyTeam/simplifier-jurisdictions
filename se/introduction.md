@@ -1,35 +1,41 @@
-*This overview is based on the insights gathered from the DevDays 2024 State of FHIR survey.*
+**In Sweden**, the use of FHIR (Fast Healthcare Interoperability Resources) for exchanging healthcare data is in its early stages but is gaining momentum. The current adoption level is moderate, with the R4 version of FHIR being the most actively used. There's a clear expectation among healthcare professionals that the rate of FHIR adoption will significantly increase in the coming years. This optimism is driven by the demand for better data interoperability and the anticipated regulations mandating the use of FHIR.
 
-### Regulation
+## Rules and Support
 
-As of now, Sweden does not have a specific regulation mandating the use of standards in electronic health data exchange, including FHIR. However, efforts are underway to accelerate the adoption of such standards on a national level.
+- **Health Data Exchange Rules**: Currently, there is no specific regulation mandating the use of standards in electronic health data exchange in Sweden. However, future mandates such as EHDS (European Health Data Space) and regulations by the European Medicines Agency (EMA) are expected to significantly promote the use of FHIR.
+- **FHIR Requirements**: While specific FHIR requirements are not mentioned in current regulations, the development of a base/core FHIR implementation guide indicates a structured approach towards standardization.
+- **Deadlines and Fines**: No deadlines or fines are currently in place for the adoption of FHIR standards.
+- **Funding**: There are no government funds available specifically to stimulate the adoption of FHIR.
 
-### Adoption
+## National Setup
 
-FHIR is emerging as a key player in Sweden’s healthcare data exchange, with considerable momentum towards wider adoption. The FHIR R4 version is already being extensively used, signaling a positive trend in its integration. Current projections show a strong increase in FHIR adoption in the coming years, indicating growing confidence and commitment within the industry.
+- **Standards Organization**: Sweden has national organizations responsible for health data standards, including [HL7 Sweden](https://hl7.se) and [eHälsomyndigheten](http://www.ehalsomyndigheten.se).
+- **Implementation Guides**: A base/core FHIR implementation guide is under development, accessible [here](https://hl7.se/fhir/ig/base/1.0.0).
+- **Terminology Services**: A national FHIR terminology server is currently in development, indicating efforts to standardize healthcare terminology.
 
-### Authoritative Bodies
+## Active Use Cases
 
-Several authoritative bodies are driving the development and implementation of FHIR standards in Sweden. Key organizations include [HL7 Sweden](https://hl7.se) and the Swedish Standards Institute (SIS). These bodies are essential in guiding the national strategy for electronic health data exchange standards.
+- **Local Implementations**: Sweden is seeing FHIR implementation in various areas, though specific use cases within the survey were not detailed.
+- **International Standards Use**: International Patient Access and European Implementation Guides are noted areas of focus.
+- **Key Projects**: One highlighted project is the [Swedish National Medication List](https://simplifier.net/swedishnationalmedicationlist-current/~introduction), showcasing a practical application of FHIR.
 
-### Relevant Institutes
+## Who's Using FHIR
 
-The adoption and implementation of FHIR within Sweden see significant inputs from diverse sectors. Major adopters include healthcare providers, payers, insurance companies, EHR vendors, and app developers. Their collective efforts are pushing forward the national agenda for improved and standardized healthcare data exchange.
+- Organizations involved in healthcare data exchange in Sweden are gradually adopting FHIR. This includes state agencies, healthcare providers, and possibly EHR system vendors.
+- FHIR is primarily adopted for improving access to information, with the development of national standards and models being a key driver.
 
-### National Standards Development
+## Success Stories and Challenges
 
-Sweden is actively working on creating a national FHIR data model. The model is currently under development, supported by several specific FHIR standards for various use cases. To know more about this ongoing effort, you can visit the [FHIR Basprofiler](https://hl7.se/valkommen-till-arbetsgrupp-fhir-basprofiler/) hosted by HL7 Sweden. The government aims to expedite these standardization processes by providing necessary resources.
+- **Benefits**: Improved access to information is a clear benefit of FHIR adoption, as demonstrated by the Swedish National Medication List project.
+- **Difficulties**: Major challenges include a high investment cost, unclear benefits, and a lack of FHIR knowledge among stakeholders.
+- **Future Plans**: EHDS-related implementations are eagerly anticipated, suggesting a focus on aligning with European standards.
 
-### Terminology Usage
+## Future Plans
 
-Sweden’s approach to FHIR implementation includes the development of domain-specific profiles via HL7 Sweden, which aligns with international FHIR frameworks while addressing local healthcare needs. This nuanced attention ensures that the terminology used within the data models is both relevant and effective.
+- **Progress**: Sweden is making the progress it expected in FHIR adoption, despite current dissatisfaction with the adoption rate.
+- **Next Steps**: Development of new FHIR standards for specific use cases and expanded adoption across the healthcare ecosystem are planned.
+- **Expected Changes**: In the next three years, significant benefits such as cost savings, enhanced care coordination, and a robust digital health ecosystem are strongly anticipated from FHIR adoption.
 
-### Infrastructure
+Sweden's journey with FHIR is evolving, with a strong foundation being laid for widespread adoption and standardization across the healthcare sector. The focus on developing national implementation guides and terminology services, alongside anticipated regulations, positions Sweden to significantly advance its healthcare interoperability and innovation.
 
-Sweden is investing in regional and national infrastructures to facilitate seamless integration of FHIR standards by software companies. Requirements for these companies to plug into the national healthcare IT ecosystem are continually being defined to ensure compatibility and enhance data exchange efficiency.
-
-### Conclusion
-
-The state of FHIR in Sweden is marked by optimistic progression and strategic development. While regulatory frameworks continue to evolve, the commitment from authoritative bodies and the government’s support are clear indicators of a promising future for standardized healthcare data exchange in the country.
-
-*This summary presents the current state of Fast Healthcare Interoperability Resources (FHIR) in Sweden based on the [HL7 FHIR DevDays](https://devdays.com) 2024 State of FHIR survey results provided by Robert Bjervås of HL7 Sweden.*
+*The above summary is based on the answers to the State of FHIR Survey 2025, organized by Firely and HL7 International.*

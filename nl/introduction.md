@@ -1,41 +1,58 @@
-*This overview is based on the insights gathered from the DevDays 2024 State of FHIR survey, with a comparison to the 2023 survey to highlight the progress and changes.*
-
-### Regulation
-
-The Netherlands has established robust regulations to mandate the use of standards in electronic health data exchange. Key regulations include **Wegiz (NL)** and **EHDS (EU)**, both of which explicitly mandate the use of FHIR. Compliance with these regulations is expected by January 1, 2026, an earlier deadline compared to the previous year. To support this transition, the Ministry of Health is providing funds to stimulate FHIR adoption, reinforcing the commitment to a standardized healthcare data exchange system. The integration of Health Clinical Information Models (HCIMs) further underpins the use of FHIR, ensuring a structured approach to health data standards.
-
-### Adoption
-
-FHIR is already being utilized in several use cases across the Netherlands, with significant adoption of **STU3** and **R4** versions. The adoption rate has seen an increase from 2023, moving from a rating of 2 to 3, indicating broader use cases though not yet the main standard. The adoption rate is expected to see a strong increase in the coming years, driven by regulatory mandates and the availability of grants. The primary adopters of FHIR include care providers, payers, insurers, EHR vendors, and app developers, all of whom are motivated by the promise of improved care, innovation, and regulatory compliance.
-
-### Authoritative Bodies
-
-The adoption and implementation of FHIR in the Netherlands are guided by authoritative bodies such as **HL7-NL** and **Nictiz**. These organizations play a pivotal role in the development and dissemination of national standards and ensure alignment with international best practices.
+**In the Netherlands**, FHIR (Fast Healthcare Interoperability Resources) is becoming a key standard for exchanging healthcare data. Currently, various versions of FHIR are in use, with R4 being the most utilized according to survey responses. FHIR's adoption is expected to grow, driven by regulatory support and the healthcare sector's ongoing digital transformation.
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/videoseries?si=QzPnVy1NgP5Jl3Tw&amp;list=PLAPVWVA2xKFigMyb4WKLHaTh5Shgsx_gi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### Relevant Institutes
+## Rules and Support
 
-Institutes like **MedMij** are at the forefront of patient advocacy, specifically focusing on the availability and standardization of healthcare data, including FHIR. This represents a shift from 2023, where the Dutch Patient Federation was noted but did not specifically focus on FHIR. MedMij's successful use cases have demonstrated significant achievements such as lowered costs, improved healthcare outcomes, and enhanced access to information.
+- **Health Data Exchange Rules**:
+  - Regulations mandate the use of standards in electronic health data exchange.
+  - FHIR is specifically mentioned and mandated in the regulation.
+- **FHIR Requirements**:
+  - Compliance with FHIR standards is required by law.
+- **Deadlines**:
+  - There are set deadlines for compliance, although details on fines for non-compliance are unclear.
+- **Available Funding**:
+  - Government funds are available to stimulate FHIR adoption.
+- **Regulations and Funds**:
+  - EHDS (European Health Data Space) and Wegiz (Wet elektronische gegevensuitwisseling in de zorg) are key regulations promoting FHIR.
+  
+## National Setup
 
-### National Standards Development
+- **Standards Organization**:
+  - [Zorginstituut Nederland](https://www.zorginstituutnederland.nl/), [NEN](http://www.nen.nl/), and [Nictiz](https://nictiz.nl/) are responsible for health data standards in the Netherlands.
+- **Implementation Guides**:
+  - A widely used base/core FHIR implementation guide: [Nictiz R4-zib2020](https://simplifier.net/Nictiz-R4-zib2020)
+  - For STU3 and R4 versions: [FHIR IG STU3](https://informatiestandaarden.nictiz.nl/wiki/FHIR:V1.0_FHIR_IG_STU3) and [FHIR IG R4](https://informatiestandaarden.nictiz.nl/wiki/FHIR:V1.0_FHIR_IG_R4)
+- **Terminology Services**:
+  - A national FHIR terminology server is available and in production.
 
-The Netherlands boasts a national FHIR data model, accessible via [Nictiz FHIR NL Core](https://simplifier.net/packages/nictiz.fhir.nl.r4.nl-core). This model is currently being used in a  set of use cases. The national standards organization, **Nictiz**, spearheads the development of these models, ensuring they meet the specific needs of the Dutch healthcare system.
+## Active Use Cases
 
-### Infrastructure
+- Local implementations include **Prescriptions / Pharmacy**, **Referrals / Continuity of care**, **Document Exchange**, **Imaging**, and **Immunizations**.
+- International standards use mentioned is the **International Patient Summary**.
+- Key projects like **MedMij Patient Access** highlight successful local adoption.
 
-The Netherlands has developed a comprehensive regional and national infrastructure to support FHIR implementation. Software companies are required to integrate with this infrastructure to ensure seamless data exchange. This well-established infrastructure is a critical enabler for the widespread adoption of FHIR, providing the necessary technical backbone for efficient and secure health data exchange.
+## Who's Using FHIR
 
-### FHIR Implementation
+- **Active Organizations**: Care providers, EHR system vendors, and diagnostic system vendors like Imaging / Lab are actively implementing FHIR.
+- **Main Reasons for Adoption**: Regulation and grants, improving care workflows, and specific use cases like Birth Care indicate a focused approach to FHIR adoption.
+- **Usage**: FHIR is utilized for various purposes, including messaging, documents exchange, and REST API integration.
 
-The main parties adopting FHIR in the Netherlands include care providers, payers/insurers, EHR vendors, and app developers. Researchers, who were mentioned in 2023, are not specifically noted in the 2024 survey. The main drivers for FHIR adoption remain consistent with regulation and grants, improved care, and innovation being the key factors.
+## Success Stories and Challenges
 
-The challenges for FHIR adoption remain largely the same, including high investment costs, unclear benefits, unclear regulations, and lack of FHIR knowledge.
+- **Benefits**: Improved access to information and care workflows are notable benefits from FHIR adoption.
+- **Real Examples**: The **MedMij Patient Access** project is a successful use case.
+- **Main Difficulties**: High investment costs and lack of FHIR knowledge are significant challenges.
+- **Future Plans**: Respondents look forward to projects like **Birth Care** and anticipate significant benefits from FHIR adoption in cost savings and care coordination.
 
-The integration of **IPS** into the national setup continues to be a significant future use case, consistent with the 2023 survey.
+## Future Plans
 
-In conclusion, the Netherlands is making significant strides in the adoption of FHIR, driven by strong regulatory support, active involvement of key stakeholders, and a well-defined national infrastructure. The future of FHIR in the Netherlands looks promising, with expectations of increased adoption and continued improvements in healthcare outcomes.
+- Progress so far has been described as less than expected, with a neutral satisfaction rate regarding the current adoption rate.
+- Next steps include the development of new FHIR standards for more specific use cases and the launch of pilot projects with selected healthcare stakeholders.
+- The healthcare ecosystem expects expanded adoption of FHIR, aiming for significant improvements in the digital health landscape.
 
-*This summary presents the current state of Fast Healthcare Interoperability Resources (FHIR) in the Netherlands based on the [HL7 FHIR DevDays](https://devdays.com) 2024 State of FHIR survey results provided by Roel Barends of HL7 Netherlands.*
+## Contributors
 
-*Additional background was added based on the answers to the [HL7 FHIR DevDays State of FHIR survey 2023](https://fire.ly/blog/fhir-maturity-and-adoption-around-the-world/) by Alexander Henket of Nictiz.*
+- Alexander Henket (Integration Specialist at Nictiz) shared valuable insights for this survey.
+
+*The above summary is based on the answers to the State of FHIR Survey 2025, organized by Firely and HL7 International.*
