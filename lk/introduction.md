@@ -55,4 +55,4 @@ Sri Lanka has made considerable progress in FHIR adoption and plans to continue 
 
 The survey response from Chaminda Weerabaddana, Specialist in Health Informatics at the Ministry of Health, Sri Lanka, has provided valuable insights into the current state and future of FHIR in Sri Lanka.
 
-*The above summary is based on the answers to the State of FHIR Survey 2025, organized by Firely and HL7 International.*
+*The above summary is based on the answers to the [State of FHIR Survey 2025](https://fire.ly/blog/the-state-of-fhir-in-2025/), organized by Firely and HL7 International.*

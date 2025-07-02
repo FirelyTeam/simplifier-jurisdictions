@@ -37,4 +37,4 @@
 
 This document summarizes the current state and future outlook of FHIR adoption in Bangladesh, based on responses from key stakeholders involved in healthcare information technology.
 
-*The above summary is based on the answers to the State of FHIR Survey 2025, organized by Firely and HL7 International.*
+*The above summary is based on the answers to the [State of FHIR Survey 2025](https://fire.ly/blog/the-state-of-fhir-in-2025/), organized by Firely and HL7 International.*

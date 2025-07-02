@@ -45,4 +45,4 @@ Organizations within the Lao People's Democratic Republic are in the early stage
 
 This document provides an insight into the current state and future plans for FHIR adoption in the Lao People's Democratic Republic, outlining the early stages of adoption, anticipated benefits, and challenges faced along the way.
 
-*The above summary is based on the answers to the State of FHIR Survey 2025, organized by Firely and HL7 International.*
+*The above summary is based on the answers to the [State of FHIR Survey 2025](https://fire.ly/blog/the-state-of-fhir-in-2025/), organized by Firely and HL7 International.*

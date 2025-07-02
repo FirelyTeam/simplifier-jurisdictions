@@ -45,4 +45,4 @@ While specific success stories and challenges were not detailed, the neutral sat
 
 This summary reflects the current state and future outlook of FHIR implementation in the Republic of Korea, based on survey responses. It provides insights into the regulatory environment, national infrastructure for health data standards, active use cases, and the broader community's engagement with FHIR.
 
-*The above summary is based on the answers to the State of FHIR Survey 2025, organized by Firely and HL7 International.*
+*The above summary is based on the answers to the [State of FHIR Survey 2025](https://fire.ly/blog/the-state-of-fhir-in-2025/), organized by Firely and HL7 International.*

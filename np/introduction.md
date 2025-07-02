@@ -68,4 +68,4 @@ These goals are being pursued through FHIR's capabilities for messaging, documen
 
 This document provides a concise overview of the current state and future outlook of FHIR adoption in Nepal, aiming to inform and guide stakeholders across the healthcare spectrum.
 
-*The above summary is based on the answers to the State of FHIR Survey 2025, organized by Firely and HL7 International.*
+*The above summary is based on the answers to the [State of FHIR Survey 2025](https://fire.ly/blog/the-state-of-fhir-in-2025/), organized by Firely and HL7 International.*

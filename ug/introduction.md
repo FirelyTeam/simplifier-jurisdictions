@@ -41,4 +41,4 @@
 
 Contributions to this overview were made possible by insights from healthcare professionals in Uganda, reflecting their experiences and expectations around FHIR's impact on the country's healthcare landscape.
 
-*The above summary is based on the answers to the State of FHIR Survey 2025, organized by Firely and HL7 International.*
+*The above summary is based on the answers to the [State of FHIR Survey 2025](https://fire.ly/blog/the-state-of-fhir-in-2025/), organized by Firely and HL7 International.*

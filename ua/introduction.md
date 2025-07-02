@@ -57,4 +57,4 @@
 
 This document offers a concise snapshot of FHIR's current state, utilization, and future in Ukraine, presenting a hopeful outlook for its role in enhancing healthcare interoperability and outcomes.
 
-*The above summary is based on the answers to the State of FHIR Survey 2025, organized by Firely and HL7 International.*
+*The above summary is based on the answers to the [State of FHIR Survey 2025](https://fire.ly/blog/the-state-of-fhir-in-2025/), organized by Firely and HL7 International.*

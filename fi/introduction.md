@@ -52,4 +52,4 @@ Despite these challenges, there remains a cautious optimism for the role of FHIR
 ## Contributors
 Survey response provided by Mikael Rinnetmäki, Founder of Sensotrend Oy.
 
-*The above summary is based on the answers to the State of FHIR Survey 2025, organized by Firely and HL7 International.*
+*The above summary is based on the answers to the [State of FHIR Survey 2025](https://fire.ly/blog/the-state-of-fhir-in-2025/), organized by Firely and HL7 International.*

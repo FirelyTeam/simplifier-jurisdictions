@@ -64,4 +64,4 @@ The United States is on a path towards expanded adoption of FHIR, with new stand
 
 This document provides an overview based on survey responses and aims to present a clear picture of the current state and future expectations for FHIR adoption in the United States.
 
-*The above summary is based on the answers to the State of FHIR Survey 2025, organized by Firely and HL7 International.*
+*The above summary is based on the answers to the [State of FHIR Survey 2025](https://fire.ly/blog/the-state-of-fhir-in-2025/), organized by Firely and HL7 International.*

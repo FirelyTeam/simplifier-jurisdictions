@@ -58,4 +58,4 @@
 
 This document provides an overview based on survey responses about FHIR implementation and usage in Chile. It highlights the current status, regulations, active use cases, and future plans for FHIR in the Chilean healthcare ecosystem.
 
-*The above summary is based on the answers to the State of FHIR Survey 2025, organized by Firely and HL7 International.*
+*The above summary is based on the answers to the [State of FHIR Survey 2025](https://fire.ly/blog/the-state-of-fhir-in-2025/), organized by Firely and HL7 International.*

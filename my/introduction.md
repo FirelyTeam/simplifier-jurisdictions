@@ -66,4 +66,4 @@
 
 - Permission granted to use the name of the survey respondent: Azrin Zubir, Program Coordinator at SIL Malaysia.
 
-*The above summary is based on the answers to the State of FHIR Survey 2025, organized by Firely and HL7 International.*
+*The above summary is based on the answers to the [State of FHIR Survey 2025](https://fire.ly/blog/the-state-of-fhir-in-2025/), organized by Firely and HL7 International.*

@@ -45,4 +45,4 @@ Expectations are high for FHIR to lead to cost savings, improved care coordinati
 ## Contributors
 - Jamal Hashmi, Head of MENAT at SSI EMEA
 
-*The above summary is based on the answers to the State of FHIR Survey 2025, organized by Firely and HL7 International.*
+*The above summary is based on the answers to the [State of FHIR Survey 2025](https://fire.ly/blog/the-state-of-fhir-in-2025/), organized by Firely and HL7 International.*

@@ -45,4 +45,4 @@ France anticipates a robust expansion of FHIR's role in healthcare:
 
 This document reflects the collective insights of these contributors, emphasizing France's strategic commitment to leveraging FHIR for advancing healthcare interoperability and innovation.
 
-*The above summary is based on the answers to the State of FHIR Survey 2025, organized by Firely and HL7 International.*
+*The above summary is based on the answers to the [State of FHIR Survey 2025](https://fire.ly/blog/the-state-of-fhir-in-2025/), organized by Firely and HL7 International.*

@@ -59,4 +59,4 @@
 
 This document provides a snapshot of FHIR's role in Thailand's healthcare data exchange landscape, reflecting both the current state and aspirations for the future.
 
-*The above summary is based on the answers to the State of FHIR Survey 2025, organized by Firely and HL7 International.*
+*The above summary is based on the answers to the [State of FHIR Survey 2025](https://fire.ly/blog/the-state-of-fhir-in-2025/), organized by Firely and HL7 International.*

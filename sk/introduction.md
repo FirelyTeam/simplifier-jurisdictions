@@ -39,4 +39,4 @@
 
 This document reflects the current state and future expectations for FHIR in Slovakia based on a survey response and aims to provide a simple, clear overview for a general audience.
 
-*The above summary is based on the answers to the State of FHIR Survey 2025, organized by Firely and HL7 International.*
+*The above summary is based on the answers to the [State of FHIR Survey 2025](https://fire.ly/blog/the-state-of-fhir-in-2025/), organized by Firely and HL7 International.*

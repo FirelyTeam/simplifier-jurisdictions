@@ -27,4 +27,4 @@ No specific local use cases, international standards use, or key projects were m
 - **Next steps**: Launch of pilot projects with selected healthcare stakeholders and expanded adoption of FHIR across the healthcare ecosystem are noted as immediate next steps.
 - **Expected changes**: There is a neutral expectation that significant benefits from FHIR adoption will be realized in the next three years.
 
-*The above summary is based on the answers to the State of FHIR Survey 2025, organized by Firely and HL7 International.*
+*The above summary is based on the answers to the [State of FHIR Survey 2025](https://fire.ly/blog/the-state-of-fhir-in-2025/), organized by Firely and HL7 International.*

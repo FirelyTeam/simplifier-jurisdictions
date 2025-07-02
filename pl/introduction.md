@@ -49,4 +49,4 @@ These areas showcase the versatility and adaptability of FHIR to various healthc
 ## Contributors
 - Roman Radomski, Chair at HL7 Poland, has contributed to this survey. His insights offer a valuable perspective on the current and future state of FHIR in Poland.
 
-*The above summary is based on the answers to the State of FHIR Survey 2025, organized by Firely and HL7 International.*
+*The above summary is based on the answers to the [State of FHIR Survey 2025](https://fire.ly/blog/the-state-of-fhir-in-2025/), organized by Firely and HL7 International.*

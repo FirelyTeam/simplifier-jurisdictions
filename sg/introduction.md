@@ -37,4 +37,4 @@
 
 This document provides a snapshot of FHIR's role in transforming Singapore's healthcare landscape, emphasizing its growing adoption, the support framework, and the promising outlook for its impact on healthcare innovation and efficiency.
 
-*The above summary is based on the answers to the State of FHIR Survey 2025, organized by Firely and HL7 International.*
+*The above summary is based on the answers to the [State of FHIR Survey 2025](https://fire.ly/blog/the-state-of-fhir-in-2025/), organized by Firely and HL7 International.*

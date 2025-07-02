@@ -56,4 +56,4 @@ Looking forward, Brazil anticipates:
 
 This summary is based on inputs from survey respondents, including Jussara Rotzsch from HL7 Brasil, who provided detailed insights into FHIR's current state and future in Brazil.
 
-*The above summary is based on the answers to the State of FHIR Survey 2025, organized by Firely and HL7 International.*
+*The above summary is based on the answers to the [State of FHIR Survey 2025](https://fire.ly/blog/the-state-of-fhir-in-2025/), organized by Firely and HL7 International.*

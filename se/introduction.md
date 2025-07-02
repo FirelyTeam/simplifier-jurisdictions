@@ -38,4 +38,4 @@
 
 Sweden's journey with FHIR is evolving, with a strong foundation being laid for widespread adoption and standardization across the healthcare sector. The focus on developing national implementation guides and terminology services, alongside anticipated regulations, positions Sweden to significantly advance its healthcare interoperability and innovation.
 
-*The above summary is based on the answers to the State of FHIR Survey 2025, organized by Firely and HL7 International.*
+*The above summary is based on the answers to the [State of FHIR Survey 2025](https://fire.ly/blog/the-state-of-fhir-in-2025/), organized by Firely and HL7 International.*
