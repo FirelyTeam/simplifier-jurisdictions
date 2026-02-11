@@ -1,5 +1,7 @@
 **In Turkey**, the use of FHIR (Fast Healthcare Interoperability Resources) for exchanging healthcare data is currently minimal. The versions of FHIR in active use include R4, R4B, and R5, with R4 being the most utilized. Despite the slow start, there is an expectation for increased adoption of FHIR in the coming years. However, there's a noticeable absence of regulatory mandates or government incentives to drive this adoption forward.
 
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/videoseries?si=TgZGwjXby-JKVldp&amp;list=PLAPVWVA2xKFhRyMSwlUy67RZNv27ycu91" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Rules and Support
 
 - **Health Data Exchange Rules**: There is strong regulation for sharing electronic health records in Turkey, but these do not enforce or specifically require the use of FHIR or other standardized data exchange standards.

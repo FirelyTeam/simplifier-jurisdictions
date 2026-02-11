@@ -1,5 +1,7 @@
 **In Croatia**, FHIR (Fast Healthcare Interoperability Resources) is starting to be used for exchanging healthcare data. Currently, the most active FHIR version in use is R4, indicating some level of modern implementation. Respondents to the survey anticipate significant growth in the adoption of FHIR in the coming years, signaling a positive outlook towards leveraging this standard for healthcare data interoperability.
 
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/videoseries?si=1uxp9CF3yPS54yME&amp;list=PLAPVWVA2xKFhwBXb4luwO2jaNFGhKgd16" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Rules and Support
 
 - **Health Data Exchange Rules**
